@@ -1,0 +1,4168 @@
+TAP version 13
+# Subtest: first profile requires credentials while an existing demo keeps its progress
+ok 1 - first profile requires credentials while an existing demo keeps its progress
+  ---
+  duration_ms: 0.51725
+  type: 'test'
+  ...
+# Subtest: credentials match confirmation, keep password bytes, and normalize only login
+ok 2 - credentials match confirmation, keep password bytes, and normalize only login
+  ---
+  duration_ms: 0.732958
+  type: 'test'
+  ...
+# Subtest: forms use appropriate password managers and never echo credentials
+ok 3 - forms use appropriate password managers and never echo credentials
+  ---
+  duration_ms: 0.325833
+  type: 'test'
+  ...
+# Subtest: an action has four phases and expires exactly at its server deadline
+ok 4 - an action has four phases and expires exactly at its server deadline
+  ---
+  duration_ms: 0.874583
+  type: 'test'
+  ...
+# Subtest: malformed or unsupported actions never start a visible animation
+ok 5 - malformed or unsupported actions never start a visible animation
+  ---
+  duration_ms: 0.117
+  type: 'test'
+  ...
+# Subtest: cast and catch use ordered drawn poses and expire at their authoritative deadline
+ok 6 - cast and catch use ordered drawn poses and expire at their authoritative deadline
+  ---
+  duration_ms: 1.203542
+  type: 'test'
+  ...
+# Subtest: fishing poses leave authoritative boat or shore coordinates untouched and never launch litter
+ok 7 - fishing poses leave authoritative boat or shore coordinates untouched and never launch litter
+  ---
+  duration_ms: 0.205958
+  type: 'test'
+  ...
+# Subtest: identical fishing snapshots continue the server clock rather than restarting on each phone refresh
+ok 8 - identical fishing snapshots continue the server clock rather than restarting on each phone refresh
+  ---
+  duration_ms: 0.125709
+  type: 'test'
+  ...
+# Subtest: every v12 pose stays on the actor and camera physical grid at fractional positions
+ok 9 - every v12 pose stays on the actor and camera physical grid at fractional positions
+  ---
+  duration_ms: 5014.470333
+  type: 'test'
+  ...
+# Subtest: seated phone and action preserve the actual planted raster feet
+ok 10 - seated phone and action preserve the actual planted raster feet
+  ---
+  duration_ms: 228.853083
+  type: 'test'
+  ...
+# Subtest: reduced motion keeps the actor action still throughout each active server timeline
+ok 11 - reduced motion keeps the actor action still throughout each active server timeline
+  ---
+  duration_ms: 39.152916
+  type: 'test'
+  ...
+# Subtest: cigarette is a server-timed sequence with retrieval, contact pause, exhale and lowering
+ok 12 - cigarette is a server-timed sequence with retrieval, contact pause, exhale and lowering
+  ---
+  duration_ms: 1.455792
+  type: 'test'
+  ...
+# Subtest: food and drink hold at the mouth before lowering; pickup bends before it holds; throw releases
+ok 13 - food and drink hold at the mouth before lowering; pickup bends before it holds; throw releases
+  ---
+  duration_ms: 0.108875
+  type: 'test'
+  ...
+# Subtest: smoking uses distinct attached arm poses and one fixed ground anchor, including a seat and phone
+ok 14 - smoking uses distinct attached arm poses and one fixed ground anchor, including a seat and phone
+  ---
+  duration_ms: 40.024833
+  type: 'test'
+  ...
+# Subtest: pickup has articulated knee and upper body poses while feet remain planted and held paper persists
+ok 15 - pickup has articulated knee and upper body poses while feet remain planted and held paper persists
+  ---
+  duration_ms: 2.14425
+  type: 'test'
+  ...
+# Subtest: throw flight starts at the releasing hand and lands at the actual target rather than the sprite edge
+ok 16 - throw flight starts at the releasing hand and lands at the actual target rather than the sprite edge
+  ---
+  duration_ms: 0.317708
+  type: 'test'
+  ...
+# Subtest: all continuous action poses fit every saved costume and preserve integer pixel drawing
+ok 17 - all continuous action poses fit every saved costume and preserve integer pixel drawing
+  ---
+  duration_ms: 502.533417
+  type: 'test'
+  ...
+# Subtest: malformed timeline keys and progress cannot expose object properties or start a pose
+ok 18 - malformed timeline keys and progress cannot expose object properties or start a pose
+  ---
+  duration_ms: 0.160833
+  type: 'test'
+  ...
+# Subtest: flying paper draws one coherent pixel cluster and mirrors the release origin
+ok 19 - flying paper draws one coherent pixel cluster and mirrors the release origin
+  ---
+  duration_ms: 0.386917
+  type: 'test'
+  ...
+# Subtest: the shadow, nickname, clan flag and sprite follow one stable physical pixel anchor
+ok 20 - the shadow, nickname, clan flag and sprite follow one stable physical pixel anchor
+  ---
+  duration_ms: 89.141792
+  type: 'test'
+  ...
+# Subtest: fine running frames retain every native face and texture pixel at all four phases and directions
+ok 21 - fine running frames retain every native face and texture pixel at all four phases and directions
+  ---
+  duration_ms: 695.814042
+  type: 'test'
+  ...
+# Subtest: standing no longer changes to a narrow head when a character stops running
+ok 22 - standing no longer changes to a narrow head when a character stops running
+  ---
+  duration_ms: 37.094791
+  type: 'test'
+  ...
+# Subtest: fine customization preserves the native eyes while changing clothes and retains the foot anchor
+ok 23 - fine customization preserves the native eyes while changing clothes and retains the foot anchor
+  ---
+  duration_ms: 29.233333
+  type: 'test'
+  ...
+# Subtest: selected long hair keeps its added strands when the character stops running
+ok 24 - selected long hair keeps its added strands when the character stops running
+  ---
+  duration_ms: 79.848042
+  type: 'test'
+  ...
+# Subtest: twelve animals walk and pause along routes instead of staying at one coordinate
+ok 25 - twelve animals walk and pause along routes instead of staying at one coordinate
+  ---
+  duration_ms: 12.224542
+  type: 'test'
+  ...
+# Subtest: server time plus elapsed monotonic time drives motion even with a wrong device clock
+ok 26 - server time plus elapsed monotonic time drives motion even with a wrong device clock
+  ---
+  duration_ms: 0.11725
+  type: 'test'
+  ...
+# Subtest: a nearby dynamic animal target replaces its old static map position
+ok 27 - a nearby dynamic animal target replaces its old static map position
+  ---
+  duration_ms: 0.437459
+  type: 'test'
+  ...
+# Subtest: walking animals face both directions and move alternating paws; reduced motion leaves them visible
+ok 28 - walking animals face both directions and move alternating paws; reduced motion leaves them visible
+  ---
+  duration_ms: 0.943541
+  type: 'test'
+  ...
+# Subtest: pet pause freezes at the actual route point and catches up continuously afterwards
+ok 29 - pet pause freezes at the actual route point and catches up continuously afterwards
+  ---
+  duration_ms: 0.262291
+  type: 'test'
+  ...
+# Subtest: an exact litter target wins over a roaming animal within the same interaction radius
+ok 30 - an exact litter target wins over a roaming animal within the same interaction radius
+  ---
+  duration_ms: 0.140375
+  type: 'test'
+  ...
+# Subtest: all walking paths avoid the newly decorated entry beds as well as the old geometry
+ok 31 - all walking paths avoid the newly decorated entry beds as well as the old geometry
+  ---
+  duration_ms: 5.419209
+  type: 'test'
+  ...
+# Subtest: entering the actual city claims control once and phone or repeat home reuses the private token
+ok 32 - entering the actual city claims control once and phone or repeat home reuses the private token
+  ---
+  duration_ms: 4.813333
+  type: 'test'
+  ...
+# Subtest: a stale controller gets an explicit return screen and never automatically reclaims on home or polling
+ok 33 - a stale controller gets an explicit return screen and never automatically reclaims on home or polling
+  ---
+  duration_ms: 1.2955
+  type: 'test'
+  ...
+# Subtest: an explicit return reacquires control and an account reset drops the previous private token
+ok 34 - an explicit return reacquires control and an account reset drops the previous private token
+  ---
+  duration_ms: 0.939625
+  type: 'test'
+  ...
+# Subtest: a late denial from the previous token cannot switch off an explicitly recovered controller
+ok 35 - a late denial from the previous token cannot switch off an explicitly recovered controller
+  ---
+  duration_ms: 1.0465
+  type: 'test'
+  ...
+# Subtest: a controller claim completed after an account reset cannot install the old private token
+ok 36 - a controller claim completed after an account reset cannot install the old private token
+  ---
+  duration_ms: 0.671875
+  type: 'test'
+  ...
+# Subtest: durable cleanup from an old city mount cannot borrow the recovered controller token
+ok 37 - durable cleanup from an old city mount cannot borrow the recovered controller token
+  ---
+  duration_ms: 0.934958
+  type: 'test'
+  ...
+# Subtest: first character form waits for both actual native human atlases before rendering previews
+ok 38 - first character form waits for both actual native human atlases before rendering previews
+  ---
+  duration_ms: 201.972791
+  type: 'test'
+  ...
+# Subtest: profile atlas loading retains a nickname typed while the same form is still visible
+ok 39 - profile atlas loading retains a nickname typed while the same form is still visible
+  ---
+  duration_ms: 21.439167
+  type: 'test'
+  ...
+# Subtest: an old pending profile opening cannot overwrite a later screen or account
+ok 40 - an old pending profile opening cannot overwrite a later screen or account
+  ---
+  duration_ms: 1.259875
+  type: 'test'
+  ...
+# Subtest: card polling removes cached roster immediately when world becomes jury restricted
+ok 41 - card polling removes cached roster immediately when world becomes jury restricted
+  ---
+  duration_ms: 0.6535
+  type: 'test'
+  ...
+# Subtest: card polling clears the old roster when another member causes a card snapshot privacy denial
+ok 42 - card polling clears the old roster when another member causes a card snapshot privacy denial
+  ---
+  duration_ms: 0.578208
+  type: 'test'
+  ...
+# Subtest: profile and create polling follows a new jury assignment instead of retaining a city editor
+ok 43 - profile and create polling follows a new jury assignment instead of retaining a city editor
+  ---
+  duration_ms: 0.960167
+  type: 'test'
+  ...
+# Subtest: opening casino replays a saved spin at zero balance before rendering a new default stake form
+ok 44 - opening casino replays a saved spin at zero balance before rendering a new default stake form
+  ---
+  duration_ms: 0.964583
+  type: 'test'
+  ...
+# Subtest: a temporarily locked slot replay retains the saved nonce for later recovery
+ok 45 - a temporarily locked slot replay retains the saved nonce for later recovery
+  ---
+  duration_ms: 0.506791
+  type: 'test'
+  ...
+# Subtest: phone home refreshes its balance from the current world without losing inventory
+ok 46 - phone home refreshes its balance from the current world without losing inventory
+  ---
+  duration_ms: 0.992542
+  type: 'test'
+  ...
+# Subtest: an older phone opening cannot overwrite a newer wallet update
+ok 47 - an older phone opening cannot overwrite a newer wallet update
+  ---
+  duration_ms: 0.695334
+  type: 'test'
+  ...
+# Subtest: private card creation reads deck ownership from the current server inventory
+ok 48 - private card creation reads deck ownership from the current server inventory
+  ---
+  duration_ms: 1.458458
+  type: 'test'
+  ...
+# Subtest: reopening the still-visible closing phone restores its server-visible phone pose
+ok 49 - reopening the still-visible closing phone restores its server-visible phone pose
+  ---
+  duration_ms: 0.862917
+  type: 'test'
+  ...
+# Subtest: closing an expanded phone restores the compact default for its next opening
+ok 50 - closing an expanded phone restores the compact default for its next opening
+  ---
+  duration_ms: 0.771875
+  type: 'test'
+  ...
+# Subtest: complex phone search expands on navigation and apps return to compact mode
+ok 51 - complex phone search expands on navigation and apps return to compact mode
+  ---
+  duration_ms: 0.739834
+  type: 'test'
+  ...
+# Subtest: world inventory opens a separate bag without phone pose or position changes
+ok 52 - world inventory opens a separate bag without phone pose or position changes
+  ---
+  duration_ms: 0.9315
+  type: 'test'
+  ...
+# Subtest: phone inventory app closes the phone and redirects to a10slot bag
+ok 53 - phone inventory app closes the phone and redirects to a10slot bag
+  ---
+  duration_ms: 0.763958
+  type: 'test'
+  ...
+# Subtest: slot taps select locally and require a separate explicit use action
+ok 54 - slot taps select locally and require a separate explicit use action
+  ---
+  duration_ms: 0.903042
+  type: 'test'
+  ...
+# Subtest: a late inventory read cannot reopen a closed drawer
+ok 55 - a late inventory read cannot reopen a closed drawer
+  ---
+  duration_ms: 0.600958
+  type: 'test'
+  ...
+# Subtest: inventory use stays disabled until the current world position is confirmed
+ok 56 - inventory use stays disabled until the current world position is confirmed
+  ---
+  duration_ms: 0.593875
+  type: 'test'
+  ...
+# Subtest: closing during position confirmation cancels the later bag opening and economy read
+ok 57 - closing during position confirmation cancels the later bag opening and economy read
+  ---
+  duration_ms: 0.504041
+  type: 'test'
+  ...
+# Subtest: using a selected bag item updates its stack and never changes the phone pose
+ok 58 - using a selected bag item updates its stack and never changes the phone pose
+  ---
+  duration_ms: 1.356291
+  type: 'test'
+  ...
+# Subtest: a denied inventory refresh clears the cached drawer
+ok 59 - a denied inventory refresh clears the cached drawer
+  ---
+  duration_ms: 0.56225
+  type: 'test'
+  ...
+# Subtest: avatar direction click updates the image while preserving profile values and nickname
+ok 60 - avatar direction click updates the image while preserving profile values and nickname
+  ---
+  duration_ms: 2.542416
+  type: 'test'
+  ...
+# Subtest: claim keeps the returned profile and rotates CSRF without storing a password
+ok 61 - claim keeps the returned profile and rotates CSRF without storing a password
+  ---
+  duration_ms: 1.0995
+  type: 'test'
+  ...
+# Subtest: invalid confirmation never submits and failed login keeps the form usable
+ok 62 - invalid confirmation never submits and failed login keeps the form usable
+  ---
+  duration_ms: 0.674167
+  type: 'test'
+  ...
+# Subtest: Durak defense reads the selected public pair outside the hand form
+ok 63 - Durak defense reads the selected public pair outside the hand form
+  ---
+  duration_ms: 0.825375
+  type: 'test'
+  ...
+# Subtest: construction sends the chosen fixed exterior once and retains the world position
+ok 64 - construction sends the chosen fixed exterior once and retains the world position
+  ---
+  duration_ms: 0.80675
+  type: 'test'
+  ...
+# Subtest: insufficient clan members do not send a construction request or a success cue
+ok 65 - insufficient clan members do not send a construction request or a success cue
+  ---
+  duration_ms: 0.983584
+  type: 'test'
+  ...
+# Subtest: payment cue is emitted after a successful shop response and never after a rejected purchase
+ok 66 - payment cue is emitted after a successful shop response and never after a rejected purchase
+  ---
+  duration_ms: 1.172625
+  type: 'test'
+  ...
+# Subtest: new messages can notify while the phone is closed, repeated snapshots stay quiet
+ok 67 - new messages can notify while the phone is closed, repeated snapshots stay quiet
+  ---
+  duration_ms: 0.6165
+  type: 'test'
+  ...
+# Subtest: world interaction failures become a visible notice rather than an unhandled promise
+ok 68 - world interaction failures become a visible notice rather than an unhandled promise
+  ---
+  duration_ms: 0.8055
+  type: 'test'
+  ...
+# Subtest: pet interaction refreshes the authoritative effect without duplicating its animal sound
+ok 69 - pet interaction refreshes the authoritative effect without duplicating its animal sound
+  ---
+  duration_ms: 1.2
+  type: 'test'
+  ...
+# Subtest: unavailable screen pipette enters local preview sampling without changing colour
+ok 70 - unavailable screen pipette enters local preview sampling without changing colour
+  ---
+  duration_ms: 2.003833
+  type: 'test'
+  ...
+# Subtest: screen pipette keeps preview sampling available while browser picker is pending
+ok 71 - screen pipette keeps preview sampling available while browser picker is pending
+  ---
+  duration_ms: 1.368292
+  type: 'test'
+  ...
+# Subtest: browser picker failure leaves local colour sampling usable
+ok 72 - browser picker failure leaves local colour sampling usable
+  ---
+  duration_ms: 0.689917
+  type: 'test'
+  ...
+# Subtest: a pending browser pipette does not lock closing the house catalogue
+ok 73 - a pending browser pipette does not lock closing the house catalogue
+  ---
+  duration_ms: 0.523041
+  type: 'test'
+  ...
+# Subtest: sampling a model colour prevents the label from changing the chosen house style
+ok 74 - sampling a model colour prevents the label from changing the chosen house style
+  ---
+  duration_ms: 1.279042
+  type: 'test'
+  ...
+# Subtest: sampling a translucent highlight keeps house style and colour unchanged
+ok 75 - sampling a translucent highlight keeps house style and colour unchanged
+  ---
+  duration_ms: 0.644334
+  type: 'test'
+  ...
+# Subtest: a late screen colour cannot repaint a newly opened house catalogue
+ok 76 - a late screen colour cannot repaint a newly opened house catalogue
+  ---
+  duration_ms: 0.528375
+  type: 'test'
+  ...
+# Subtest: custom RGB synchronizes native and HEX values and invalid partial input retains preview
+ok 77 - custom RGB synchronizes native and HEX values and invalid partial input retains preview
+  ---
+  duration_ms: 0.633791
+  type: 'test'
+  ...
+# Subtest: resetting account state invalidates an already pending economy read
+ok 78 - resetting account state invalidates an already pending economy read
+  ---
+  duration_ms: 0.659917
+  type: 'test'
+  ...
+# Subtest: world diagnostics are off normally and enabled only by the explicit local URL flag
+ok 79 - world diagnostics are off normally and enabled only by the explicit local URL flag
+  ---
+  duration_ms: 0.937167
+  type: 'test'
+  ...
+# Subtest: a late recovered spin cannot replace another account request or result
+ok 80 - a late recovered spin cannot replace another account request or result
+  ---
+  duration_ms: 0.655208
+  type: 'test'
+  ...
+# Subtest: a late recovered spin cannot discard a newer nonce after re-entering the same account
+ok 81 - a late recovered spin cannot discard a newer nonce after re-entering the same account
+  ---
+  duration_ms: 0.714125
+  type: 'test'
+  ...
+# Subtest: the built house catalogue starts with its actual model and saved custom colour
+ok 82 - the built house catalogue starts with its actual model and saved custom colour
+  ---
+  duration_ms: 1.046917
+  type: 'test'
+  ...
+# Subtest: animals and boats have distinct original audible chip cues
+ok 83 - animals and boats have distinct original audible chip cues
+  ---
+  duration_ms: 1.748958
+  type: 'test'
+  ...
+# Subtest: sound tracks are bounded distinct original retro event effects
+ok 84 - sound tracks are bounded distinct original retro event effects
+  ---
+  duration_ms: 0.184875
+  type: 'test'
+  ...
+# Subtest: mute and hidden state never initialize or queue audio
+ok 85 - mute and hidden state never initialize or queue audio
+  ---
+  duration_ms: 0.466958
+  type: 'test'
+  ...
+# Subtest: effects use saved volume and release ended nodes; steps are throttled
+ok 86 - effects use saved volume and release ended nodes; steps are throttled
+  ---
+  duration_ms: 0.164125
+  type: 'test'
+  ...
+# Subtest: walking schedules only a soft low foot contact, without noise percussion
+ok 87 - walking schedules only a soft low foot contact, without noise percussion
+  ---
+  duration_ms: 0.135792
+  type: 'test'
+  ...
+# Subtest: missing AudioContext is a silent non-blocking fallback
+ok 88 - missing AudioContext is a silent non-blocking fallback
+  ---
+  duration_ms: 0.110583
+  type: 'test'
+  ...
+# Subtest: zero volume is fully silent and repeated actions keep at most four live effects
+ok 89 - zero volume is fully silent and repeated actions keep at most four live effects
+  ---
+  duration_ms: 0.206917
+  type: 'test'
+  ...
+# Subtest: notification polling only sounds for new unread data and resets baseline per account
+ok 90 - notification polling only sounds for new unread data and resets baseline per account
+  ---
+  duration_ms: 0.134709
+  type: 'test'
+  ...
+# Subtest: failed node allocation after a suspended context resumes releases partial effects
+ok 91 - failed node allocation after a suspended context resumes releases partial effects
+  ---
+  duration_ms: 5.590083
+  type: 'test'
+  ...
+# Subtest: stopping before context resume cancels every queued cue
+ok 92 - stopping before context resume cancels every queued cue
+  ---
+  duration_ms: 0.853459
+  type: 'test'
+  ...
+# Subtest: hiding during context resume does not schedule an old cue
+ok 93 - hiding during context resume does not schedule an old cue
+  ---
+  duration_ms: 0.361583
+  type: 'test'
+  ...
+# Subtest: a synchronous allocation failure disconnects the gain created before it
+ok 94 - a synchronous allocation failure disconnects the gain created before it
+  ---
+  duration_ms: 0.159
+  type: 'test'
+  ...
+# Subtest: catalog exposes two body choices and broad named visual parts
+ok 95 - catalog exposes two body choices and broad named visual parts
+  ---
+  duration_ms: 0.493875
+  type: 'test'
+  ...
+# Subtest: legacy avatar retains saved part values and new parts get safe defaults
+ok 96 - legacy avatar retains saved part values and new parts get safe defaults
+  ---
+  duration_ms: 0.487
+  type: 'test'
+  ...
+# Subtest: all hairstyle thumbnails and body/outfit choices visibly differ
+ok 97 - all hairstyle thumbnails and body/outfit choices visibly differ
+  ---
+  duration_ms: 20.982375
+  type: 'test'
+  ...
+# Subtest: jury silhouette cannot reveal author customization
+ok 98 - jury silhouette cannot reveal author customization
+  ---
+  duration_ms: 4.576208
+  type: 'test'
+  ...
+# Subtest: same avatar has walking/facing canvas frames and no dynamic unsafe colors
+ok 99 - same avatar has walking/facing canvas frames and no dynamic unsafe colors
+  ---
+  duration_ms: 9.465792
+  type: 'test'
+  ...
+# Subtest: phone, sitting and smoking poses are visible and cannot reveal jury appearance
+ok 100 - phone, sitting and smoking poses are visible and cannot reveal jury appearance
+  ---
+  duration_ms: 5.482208
+  type: 'test'
+  ...
+# Subtest: new shop outfits and face-free headgear previews use safe shared parts
+ok 101 - new shop outfits and face-free headgear previews use safe shared parts
+  ---
+  duration_ms: 10.834167
+  type: 'test'
+  ...
+# Subtest: card room routing is based on authorized canonical world assignment
+ok 102 - card room routing is based on authorized canonical world assignment
+  ---
+  duration_ms: 0.110417
+  type: 'test'
+  ...
+# Subtest: compact shared sprite exports its grounding geometry and preserves saved outfit IDs
+ok 103 - compact shared sprite exports its grounding geometry and preserves saved outfit IDs
+  ---
+  duration_ms: 3.626542
+  type: 'test'
+  ...
+# Subtest: eight movement samples hold four complete authored poses in their source order
+ok 104 - eight movement samples hold four complete authored poses in their source order
+  ---
+  duration_ms: 19.169042
+  type: 'test'
+  ...
+# Subtest: phone is a chest overlay with a camera-facing head and does not release a seat
+ok 105 - phone is a chest overlay with a camera-facing head and does not release a seat
+  ---
+  duration_ms: 12.8795
+  type: 'test'
+  ...
+# Subtest: poses, all directions and phone overlays remain inside64px and jury ignores every personal layer
+ok 106 - poses, all directions and phone overlays remain inside64px and jury ignores every personal layer
+  ---
+  duration_ms: 40.850292
+  type: 'test'
+  ...
+# Subtest: skin, hair and cloth contain material shades instead of single flat colour fills
+ok 107 - skin, hair and cloth contain material shades instead of single flat colour fills
+  ---
+  duration_ms: 4.516542
+  type: 'test'
+  ...
+# Subtest: shared SVG and canvas stay inside a complete 48 by 64 reference sprite envelope
+ok 108 - shared SVG and canvas stay inside a complete 48 by 64 reference sprite envelope
+  ---
+  duration_ms: 35.484542
+  type: 'test'
+  ...
+# Subtest: four directions and walking phases remain distinct while catalog values stay deterministic
+ok 109 - four directions and walking phases remain distinct while catalog values stay deterministic
+  ---
+  duration_ms: 67.349
+  type: 'test'
+  ...
+# Subtest: headwear previews contain only a face-free head and generic jury cannot reveal any customization or pose
+ok 110 - headwear previews contain only a face-free head and generic jury cannot reveal any customization or pose
+  ---
+  duration_ms: 9.620708
+  type: 'test'
+  ...
+# Subtest: reference head and body have shaped silhouettes and narrower independent side profiles
+ok 111 - reference head and body have shaped silhouettes and narrower independent side profiles
+  ---
+  duration_ms: 2.537208
+  type: 'test'
+  ...
+# Subtest: the same head keeps its pixel widths while following fractional walking coordinates
+ok 112 - the same head keeps its pixel widths while following fractional walking coordinates
+  ---
+  duration_ms: 11.60775
+  type: 'test'
+  ...
+# Subtest: self head and camera share the same physical pixel grid at phone and desktop pixel densities
+ok 113 - self head and camera share the same physical pixel grid at phone and desktop pixel densities
+  ---
+  duration_ms: 13.775375
+  type: 'test'
+  ...
+# Subtest: shared reference sprite preserves grounding geometry and stored customization values
+ok 114 - shared reference sprite preserves grounding geometry and stored customization values
+  ---
+  duration_ms: 5.039833
+  type: 'test'
+  ...
+# Subtest: eight gait samples show four complete authored poses without replacing their heads
+ok 115 - eight gait samples show four complete authored poses without replacing their heads
+  ---
+  duration_ms: 41.605417
+  type: 'test'
+  ...
+# Subtest: phone and sitting compose in shared canvas and SVG without moving seated legs
+ok 116 - phone and sitting compose in shared canvas and SVG without moving seated legs
+  ---
+  duration_ms: 7.732208
+  type: 'test'
+  ...
+# Subtest: independently authored left and right views stay distinct and malformed directions stay safe
+ok 117 - independently authored left and right views stay distinct and malformed directions stay safe
+  ---
+  duration_ms: 3.111917
+  type: 'test'
+  ...
+# Subtest: display scaling snaps both pixel edges so scanline artwork cannot develop hairline gaps
+ok 118 - display scaling snaps both pixel edges so scanline artwork cannot develop hairline gaps
+  ---
+  duration_ms: 0.629083
+  type: 'test'
+  ...
+# Subtest: shoulders, sleeves and moving hands stay attached to the torso throughout the gait
+ok 119 - shoulders, sleeves and moving hands stay attached to the torso throughout the gait
+  ---
+  duration_ms: 61.708459
+  type: 'test'
+  ...
+# Subtest: world actions have four visible hand phases, a stable head and stationary feet in every facing
+ok 120 - world actions have four visible hand phases, a stable head and stationary feet in every facing
+  ---
+  duration_ms: 49.805
+  type: 'test'
+  ...
+# Subtest: actions compose with sitting, phone orientation and original appearance while jury stays neutral
+ok 121 - actions compose with sitting, phone orientation and original appearance while jury stays neutral
+  ---
+  duration_ms: 44.415167
+  type: 'test'
+  ...
+# Subtest: picked litter stays visible in the hand while walking and cannot appear in headgear or jury
+ok 122 - picked litter stays visible in the hand while walking and cannot appear in headgear or jury
+  ---
+  duration_ms: 17.158042
+  type: 'test'
+  ...
+# Subtest: action pixels fit every saved costume and hands remain attached in both authored side views
+ok 123 - action pixels fit every saved costume and hands remain attached in both authored side views
+  ---
+  duration_ms: 390.478333
+  type: 'test'
+  ...
+# Subtest: the full body stops before a lamp and can slide along its free edge
+ok 124 - the full body stops before a lamp and can slide along its free edge
+  ---
+  duration_ms: 0.710042
+  type: 'test'
+  ...
+# Subtest: a long movement reaches first body contact rather than discarding the whole step
+ok 125 - a long movement reaches first body contact rather than discarding the whole step
+  ---
+  duration_ms: 0.471625
+  type: 'test'
+  ...
+# Subtest: free-point repair and outer edges leave clearance for the complete body
+ok 126 - free-point repair and outer edges leave clearance for the complete body
+  ---
+  duration_ms: 0.259333
+  type: 'test'
+  ...
+# Subtest: collision indexing includes a body crossing a neighbouring spatial bucket
+ok 127 - collision indexing includes a body crossing a neighbouring spatial bucket
+  ---
+  duration_ms: 0.115542
+  type: 'test'
+  ...
+# Subtest: a passage narrower than a body is blocked, while an exact 28-unit opening is usable
+ok 128 - a passage narrower than a body is blocked, while an exact 28-unit opening is usable
+  ---
+  duration_ms: 0.104834
+  type: 'test'
+  ...
+# Subtest: a circular foot support clears a diagonal corner without a square-collider snag
+ok 129 - a circular foot support clears a diagonal corner without a square-collider snag
+  ---
+  duration_ms: 0.114708
+  type: 'test'
+  ...
+# Subtest: public interiors reject body overlap and preserve sliding around counters
+ok 130 - public interiors reject body overlap and preserve sliding around counters
+  ---
+  duration_ms: 0.107834
+  type: 'test'
+  ...
+# Subtest: base movement releases a chair into ground clear of its complete support
+ok 131 - base movement releases a chair into ground clear of its complete support
+  ---
+  duration_ms: 0.190375
+  type: 'test'
+  ...
+# Subtest: all 11 public exits, services and seat approaches are reachable by the real foot collider
+ok 132 - all 11 public exits, services and seat approaches are reachable by the real foot collider
+  ---
+  duration_ms: 50.391584
+  type: 'test'
+  ...
+# Subtest: panel shows actual source tables and addressed invitations with stable form contracts
+ok 133 - panel shows actual source tables and addressed invitations with stable form contracts
+  ---
+  duration_ms: 4.268667
+  type: 'test'
+  ...
+# Subtest: private room creation without a purchased deck is disabled and explains how to unlock it
+ok 134 - private room creation without a purchased deck is disabled and explains how to unlock it
+  ---
+  duration_ms: 0.25725
+  type: 'test'
+  ...
+# Subtest: a purchased deck enables private room creation and retains its inventory explanation
+ok 135 - a purchased deck enables private room creation and retains its inventory explanation
+  ---
+  duration_ms: 0.157
+  type: 'test'
+  ...
+# Subtest: casino room creation does not require a purchased deck
+ok 136 - casino room creation does not require a purchased deck
+  ---
+  duration_ms: 0.111209
+  type: 'test'
+  ...
+# Subtest: playing room hides rival hand even if data contains it and preserves own selections
+ok 137 - playing room hides rival hand even if data contains it and preserves own selections
+  ---
+  duration_ms: 9.481042
+  type: 'test'
+  ...
+# Subtest: finished room reveals actual cards and payouts; waiting nonmember can join
+ok 138 - finished room reveals actual cards and payouts; waiting nonmember can join
+  ---
+  duration_ms: 5.908666
+  type: 'test'
+  ...
+# Subtest: blackjack dealer second card remains closed until finish and host invitation draft is escaped
+ok 139 - blackjack dealer second card remains closed until finish and host invitation draft is escaped
+  ---
+  duration_ms: 2.473959
+  type: 'test'
+  ...
+# Subtest: all user text is escaped while invalid card and slot codes never become markup
+ok 140 - all user text is escaped while invalid card and slot codes never become markup
+  ---
+  duration_ms: 1.721041
+  type: 'test'
+  ...
+# Subtest: Durak presents only own hand and public board, with server-authorized moves
+ok 141 - Durak presents only own hand and public board, with server-authorized moves
+  ---
+  duration_ms: 2.328083
+  type: 'test'
+  ...
+# Subtest: rendered suit and turn classes have matching visual selectors
+ok 142 - rendered suit and turn classes have matching visual selectors
+  ---
+  duration_ms: 1.57625
+  type: 'test'
+  ...
+# Subtest: casino visual seats the actual participants and never renders secret hand data
+ok 143 - casino visual seats the actual participants and never renders secret hand data
+  ---
+  duration_ms: 10.977334
+  type: 'test'
+  ...
+# Subtest: private card rooms do not become a casino and actual action forms remain available
+ok 144 - private card rooms do not become a casino and actual action forms remain available
+  ---
+  duration_ms: 3.54875
+  type: 'test'
+  ...
+# Subtest: casino visual escapes names and IDs and caps seats to four
+ok 145 - casino visual escapes names and IDs and caps seats to four
+  ---
+  duration_ms: 2.534292
+  type: 'test'
+  ...
+# Subtest: source-derived character retains detailed head materials and two separate bright eye areas
+ok 146 - source-derived character retains detailed head materials and two separate bright eye areas
+  ---
+  duration_ms: 5.4285
+  type: 'test'
+  ...
+# Subtest: all saved parts still produce unique redraws; no unsafe or external raster is embedded
+ok 147 - all saved parts still produce unique redraws; no unsafe or external raster is embedded
+  ---
+  duration_ms: 66.916208
+  type: 'test'
+  ...
+# Subtest: customized movement holds each complete pose twice and retains distinct independent direction art
+ok 148 - customized movement holds each complete pose twice and retains distinct independent direction art
+  ---
+  duration_ms: 280.191125
+  type: 'test'
+  ...
+# Subtest: the complete source stride fits a48×64 grounded portrait with four authored poses in the existing eight-sample gait
+ok 149 - the complete source stride fits a48×64 grounded portrait with four authored poses in the existing eight-sample gait
+  ---
+  duration_ms: 0.518709
+  type: 'test'
+  ...
+# Subtest: female is slightly shorter and has a narrower waist with the same grounded feet
+ok 150 - female is slightly shorter and has a narrower waist with the same grounded feet
+  ---
+  duration_ms: 5.510833
+  type: 'test'
+  ...
+# Subtest: all four canonical idle portraits retain every sampled pixel from the supplied image
+ok 151 - all four canonical idle portraits retain every sampled pixel from the supplied image
+  ---
+  duration_ms: 6.036791
+  type: 'test'
+  ...
+# Subtest: both supplied original files are retained byte for byte with recorded hashes
+ok 152 - both supplied original files are retained byte for byte with recorded hashes
+  ---
+  duration_ms: 1.86475
+  type: 'test'
+  ...
+# Subtest: all sixteen complete supplied poses are reachable without an idle head transplant
+ok 153 - all sixteen complete supplied poses are reachable without an idle head transplant
+  ---
+  duration_ms: 18.260167
+  type: 'test'
+  ...
+# Subtest: saved appearance IDs remain valid and sensitive nickname properties do not enter the sprite
+ok 154 - saved appearance IDs remain valid and sensitive nickname properties do not enter the sprite
+  ---
+  duration_ms: 1.85925
+  type: 'test'
+  ...
+# Subtest: female movement uses complete discrete poses with slightly shorter stature and shared ground contact
+ok 155 - female movement uses complete discrete poses with slightly shorter stature and shared ground contact
+  ---
+  duration_ms: 14.987833
+  type: 'test'
+  ...
+# Subtest: hair-only variants preserve the approved eyes and keep shoulders connected
+ok 156 - hair-only variants preserve the approved eyes and keep shoulders connected
+  ---
+  duration_ms: 12.55475
+  type: 'test'
+  ...
+# Subtest: continuous action progress reuses rendered poses instead of allocating a bitmap for every timestamp
+ok 157 - continuous action progress reuses rendered poses instead of allocating a bitmap for every timestamp
+  ---
+  duration_ms: 10.189708
+  type: 'test'
+  ...
+# Subtest: the phone screen stays visible through seated and standing concurrent actions in every direction
+ok 158 - the phone screen stays visible through seated and standing concurrent actions in every direction
+  ---
+  duration_ms: 183.20225
+  type: 'test'
+  ...
+# Subtest: long hair retains its own material when a costume or short sleeve is selected
+ok 159 - long hair retains its own material when a costume or short sleeve is selected
+  ---
+  duration_ms: 3.4145
+  type: 'test'
+  ...
+# Subtest: all source houses and buildings have a paved door connection and usable parking outside street curbs
+ok 160 - all source houses and buildings have a paved door connection and usable parking outside street curbs
+  ---
+  duration_ms: 38.424667
+  type: 'test'
+  ...
+# Subtest: lighting uses aligned rows with stable spacing and all complete sprites leave doors, props and water clear
+ok 161 - lighting uses aligned rows with stable spacing and all complete sprites leave doors, props and water clear
+  ---
+  duration_ms: 10.244125
+  type: 'test'
+  ...
+# Subtest: retained assembled v18 parking drives avoid their own canonical walls and supports
+ok 162 - retained assembled v18 parking drives avoid their own canonical walls and supports
+  ---
+  duration_ms: 74.448583
+  type: 'test'
+  ...
+# Subtest: source city does not retain physical location signs apart from the welcome sign
+ok 163 - source city does not retain physical location signs apart from the welcome sign
+  ---
+  duration_ms: 0.234875
+  type: 'test'
+  ...
+# Subtest: architecture art provides distinct public silhouettes and truthful solid footprints
+ok 164 - architecture art provides distinct public silhouettes and truthful solid footprints
+  ---
+  duration_ms: 189.862291
+  type: 'test'
+  ...
+# Subtest: all eleven modular public interiors bind individual native equipment with the same physical supports
+ok 165 - all eleven modular public interiors bind individual native equipment with the same physical supports
+  ---
+  duration_ms: 41.501917
+  type: 'test'
+  ...
+# Subtest: architecture ground never paints over asphalt or junctions
+ok 166 - architecture ground never paints over asphalt or junctions
+  ---
+  duration_ms: 6568.601458
+  type: 'test'
+  ...
+# Subtest: all visible physical fixtures have ground support rather than blocking crowns or light
+ok 167 - all visible physical fixtures have ground support rather than blocking crowns or light
+  ---
+  duration_ms: 0.633667
+  type: 'test'
+  ...
+# Subtest: a large step cannot cross a lamp, and a tangent step can slide along its edge
+ok 168 - a large step cannot cross a lamp, and a tangent step can slide along its edge
+  ---
+  duration_ms: 0.498666
+  type: 'test'
+  ...
+# Subtest: public buildings block the rendered side wall while leaving the entrance step accessible
+ok 169 - public buildings block the rendered side wall while leaving the entrance step accessible
+  ---
+  duration_ms: 0.529625
+  type: 'test'
+  ...
+# Subtest: renovating an occupied foot position moves it to a nearby free edge, not the station
+ok 170 - renovating an occupied foot position moves it to a nearby free edge, not the station
+  ---
+  duration_ms: 0.144459
+  type: 'test'
+  ...
+# Subtest: shop availability uses real wallet and owned durable items
+ok 171 - shop availability uses real wallet and owned durable items
+  ---
+  duration_ms: 0.509917
+  type: 'test'
+  ...
+# Subtest: locked outfit choices do not become free through catalog rendering
+ok 172 - locked outfit choices do not become free through catalog rendering
+  ---
+  duration_ms: 0.122167
+  type: 'test'
+  ...
+# Subtest: quest and friend labels are escaped and invitations identify actual sender
+ok 173 - quest and friend labels are escaped and invitations identify actual sender
+  ---
+  duration_ms: 3.976125
+  type: 'test'
+  ...
+# Subtest: fishing needs a rod and only enables catching after server ready time
+ok 174 - fishing needs a rod and only enables catching after server ready time
+  ---
+  duration_ms: 0.202375
+  type: 'test'
+  ...
+# Subtest: a cast at a different fishing spot does not block casting at the current spot
+ok 175 - a cast at a different fishing spot does not block casting at the current spot
+  ---
+  duration_ms: 0.104125
+  type: 'test'
+  ...
+# Subtest: pet selection and addressed base invitations keep stored identity and escape text
+ok 176 - pet selection and addressed base invitations keep stored identity and escape text
+  ---
+  duration_ms: 0.203083
+  type: 'test'
+  ...
+# Subtest: all city benches and both occupied seat slots stand clear of asphalt
+ok 177 - all city benches and both occupied seat slots stand clear of asphalt
+  ---
+  duration_ms: 3.4405
+  type: 'test'
+  ...
+# Subtest: lamp bases, public containers, archive legs and tree roots do not occupy road asphalt
+ok 178 - lamp bases, public containers, archive legs and tree roots do not occupy road asphalt
+  ---
+  duration_ms: 8.529208
+  type: 'test'
+  ...
+# Subtest: every source bench, public container and archive stays on its usable pedestrian paving
+ok 179 - every source bench, public container and archive stays on its usable pedestrian paving
+  ---
+  duration_ms: 0.7505
+  type: 'test'
+  ...
+# Subtest: open map ground is grass even outside the old pocket lawns and city rectangle
+ok 180 - open map ground is grass even outside the old pocket lawns and city rectangle
+  ---
+  duration_ms: 212.3625
+  type: 'test'
+  ...
+# Subtest: every public door and clan plot has a clear forecourt and a road-connected path
+ok 181 - every public door and clan plot has a clear forecourt and a road-connected path
+  ---
+  duration_ms: 140.210916
+  type: 'test'
+  ...
+# Subtest: access paths do not cut through another house or apartment footprint
+ok 182 - access paths do not cut through another house or apartment footprint
+  ---
+  duration_ms: 133.817917
+  type: 'test'
+  ...
+# Subtest: zebra crossings follow a real road segment and keep all stripes inside its asphalt edges
+ok 183 - zebra crossings follow a real road segment and keep all stripes inside its asphalt edges
+  ---
+  duration_ms: 132.372792
+  type: 'test'
+  ...
+# Subtest: crossing paint is drawn after plazas so the square cannot erase half a crossing
+ok 184 - crossing paint is drawn after plazas so the square cannot erase half a crossing
+  ---
+  duration_ms: 132.841208
+  type: 'test'
+  ...
+# Subtest: mini-map draws the same grass, asphalt and access geometry as the outdoor renderer
+ok 185 - mini-map draws the same grass, asphalt and access geometry as the outdoor renderer
+  ---
+  duration_ms: 132.699292
+  type: 'test'
+  ...
+# Subtest: ground planning preserves saved geometry and handles zero-length road edges
+ok 186 - ground planning preserves saved geometry and handles zero-length road edges
+  ---
+  duration_ms: 136.477334
+  type: 'test'
+  ...
+# Subtest: house paths meet sidewalks with flat ends and the forecourt hides interior curb seams
+ok 187 - house paths meet sidewalks with flat ends and the forecourt hides interior curb seams
+  ---
+  duration_ms: 148.820333
+  type: 'test'
+  ...
+# Subtest: urban centre markings have complete dashes and stop clear of the intersection and zebra
+ok 188 - urban centre markings have complete dashes and stop clear of the intersection and zebra
+  ---
+  duration_ms: 0.541541
+  type: 'test'
+  ...
+# Subtest: pedestrian paths never receive vehicle lane markings
+ok 189 - pedestrian paths never receive vehicle lane markings
+  ---
+  duration_ms: 7.447458
+  type: 'test'
+  ...
+# Subtest: every building footprint is clear of the entire street and sidewalk band
+ok 190 - every building footprint is clear of the entire street and sidewalk band
+  ---
+  duration_ms: 9.762334
+  type: 'test'
+  ...
+# Subtest: source district has distinct north and south streets and every street fits inside the map
+ok 191 - source district has distinct north and south streets and every street fits inside the map
+  ---
+  duration_ms: 0.160167
+  type: 'test'
+  ...
+# Subtest: waterfront pavement keeps its whole width plus a visible shore margin outside water
+ok 192 - waterfront pavement keeps its whole width plus a visible shore margin outside water
+  ---
+  duration_ms: 8.78275
+  type: 'test'
+  ...
+# Subtest: all fixed physical city supports remain clear of buildings, entrances and asphalt
+ok 193 - all fixed physical city supports remain clear of buildings, entrances and asphalt
+  ---
+  duration_ms: 23.510958
+  type: 'test'
+  ...
+# Subtest: generated bike racks sit on pavement outside asphalt without physical location lettering
+ok 194 - generated bike racks sit on pavement outside asphalt without physical location lettering
+  ---
+  duration_ms: 0.884958
+  type: 'test'
+  ...
+# Subtest: rendered house side planes remain outside asphalt
+ok 195 - rendered house side planes remain outside asphalt
+  ---
+  duration_ms: 2.448333
+  type: 'test'
+  ...
+# Subtest: generated planter bases, sign posts and public furniture do not occupy asphalt
+ok 196 - generated planter bases, sign posts and public furniture do not occupy asphalt
+  ---
+  duration_ms: 0.925125
+  type: 'test'
+  ...
+# Subtest: every authored road, footpath and generated door approach has a dry body-sized corridor
+ok 197 - every authored road, footpath and generated door approach has a dry body-sized corridor
+  ---
+  duration_ms: 792.332416
+  type: 'test'
+  ...
+# Subtest: walking every road and all public/clan approaches in both directions never blocks or resets the player
+ok 198 - walking every road and all public/clan approaches in both directions never blocks or resets the player
+  ---
+  duration_ms: 2967.944583
+  type: 'test'
+  ...
+# Subtest: all 19 outdoor doors have clear action targets and both slots of every bench can be left in every direction
+ok 199 - all 19 outdoor doors have clear action targets and both slots of every bench can be left in every direction
+  ---
+  duration_ms: 20.817791
+  type: 'test'
+  ...
+# Subtest: five or more actual rendered crossings connect both sidewalks across a clear full-width street
+ok 200 - five or more actual rendered crossings connect both sidewalks across a clear full-width street
+  ---
+  duration_ms: 28.355333
+  type: 'test'
+  ...
+# Subtest: every park bench, fountain and gazebo has a real paved landing connected to a clear authored alley
+ok 201 - every park bench, fountain and gazebo has a real paved landing connected to a clear authored alley
+  ---
+  duration_ms: 8.214792
+  type: 'test'
+  ...
+# Subtest: RGB colours normalize safely without accepting CSS or markup
+ok 202 - RGB colours normalize safely without accepting CSS or markup
+  ---
+  duration_ms: 0.541167
+  type: 'test'
+  ...
+# Subtest: screen picker returns selected colour, handles cancellation, and falls back when unavailable
+ok 203 - screen picker returns selected colour, handles cancellation, and falls back when unavailable
+  ---
+  duration_ms: 0.335667
+  type: 'test'
+  ...
+# Subtest: local pipette only samples safe solid fills within the house preview
+ok 204 - local pipette only samples safe solid fills within the house preview
+  ---
+  duration_ms: 0.114208
+  type: 'test'
+  ...
+# Subtest: building requires membership, leadership, four actual members and approach
+ok 205 - building requires membership, leadership, four actual members and approach
+  ---
+  duration_ms: 0.602583
+  type: 'test'
+  ...
+# Subtest: construction shows six model previews, color choices and explicit fixed exterior confirmation
+ok 206 - construction shows six model previews, color choices and explicit fixed exterior confirmation
+  ---
+  duration_ms: 0.961958
+  type: 'test'
+  ...
+# Subtest: construction payload accepts six models and arbitrary strict RGB colour
+ok 207 - construction payload accepts six models and arbitrary strict RGB colour
+  ---
+  duration_ms: 0.86225
+  type: 'test'
+  ...
+# Subtest: hidden jury members still count towards four real clan members
+ok 208 - hidden jury members still count towards four real clan members
+  ---
+  duration_ms: 0.181708
+  type: 'test'
+  ...
+# Subtest: house color swatches work under the strict server CSP without inline styles
+ok 209 - house color swatches work under the strict server CSP without inline styles
+  ---
+  duration_ms: 0.181208
+  type: 'test'
+  ...
+# Subtest: exact city construction explains that native exteriors stay fixed while interior editing remains available
+ok 210 - exact city construction explains that native exteriors stay fixed while interior editing remains available
+  ---
+  duration_ms: 0.12175
+  type: 'test'
+  ...
+# Subtest: city smoking platform has no path curb or diagonal paving seams through its interior
+ok 211 - city smoking platform has no path curb or diagonal paving seams through its interior
+  ---
+  duration_ms: 238.665959
+  type: 'test'
+  ...
+# Subtest: overview smoking platform has no path curb or diagonal paving seams through its interior
+ok 212 - overview smoking platform has no path curb or diagonal paving seams through its interior
+  ---
+  duration_ms: 160.05325
+  type: 'test'
+  ...
+# Subtest: public paths join each other without leaving an interior curb at their shared mouth
+ok 213 - public paths join each other without leaving an interior curb at their shared mouth
+  ---
+  duration_ms: 10.298041
+  type: 'test'
+  ...
+# Subtest: a walkway mouth cannot paint its cap curb over the adjoining street sidewalk
+ok 214 - a walkway mouth cannot paint its cap curb over the adjoining street sidewalk
+  ---
+  duration_ms: 1.941209
+  type: 'test'
+  ...
+# Subtest: every current sidewalk, public path, 19 approach and paved square has a curb-free walking interior in both renders
+ok 215 - every current sidewalk, public path, 19 approach and paved square has a curb-free walking interior in both renders
+  ---
+  duration_ms: 22543.1925
+  type: 'test'
+  ...
+# Subtest: source design runtime exists
+ok 216 - source design runtime exists
+  ---
+  duration_ms: 0.533459
+  type: 'test'
+  ...
+# Subtest: asset box preserves proportions and bottom anchor
+ok 217 - asset box preserves proportions and bottom anchor
+  ---
+  duration_ms: 7.391625
+  type: 'test'
+  ...
+# Subtest: all four source furniture sides are independent and available
+ok 218 - all four source furniture sides are independent and available
+  ---
+  duration_ms: 0.332542
+  type: 'test'
+  ...
+# Subtest: preloading and drawing never transform image into a mirrored side
+ok 219 - preloading and drawing never transform image into a mirrored side
+  ---
+  duration_ms: 0.328375
+  type: 'test'
+  ...
+# Subtest: mobile preload decodes only the requested real side of a model
+ok 220 - mobile preload decodes only the requested real side of a model
+  ---
+  duration_ms: 0.190083
+  type: 'test'
+  ...
+# Subtest: visible facade sizing excludes faint transparent borders without stretching or changing the PNG
+ok 221 - visible facade sizing excludes faint transparent borders without stretching or changing the PNG
+  ---
+  duration_ms: 0.199666
+  type: 'test'
+  ...
+# Subtest: the approved original and imported city artwork have identical decoded pixels
+ok 222 - the approved original and imported city artwork have identical decoded pixels
+  ---
+  duration_ms: 44.754042
+  type: 'test'
+  ...
+# Subtest: exact city scene draws every approved pixel without synthesized streets or objects
+ok 223 - exact city scene draws every approved pixel without synthesized streets or objects
+  ---
+  duration_ms: 6.496625
+  type: 'test'
+  ...
+# Subtest: a viewport preserves source pixels exactly and never paints outside its rectangle
+ok 224 - a viewport preserves source pixels exactly and never paints outside its rectangle
+  ---
+  duration_ms: 14.912166
+  type: 'test'
+  ...
+# Subtest: ground, minimap and architecture consumers preserve the exact scene
+ok 225 - ground, minimap and architecture consumers preserve the exact scene
+  ---
+  duration_ms: 11.459708
+  type: 'test'
+  ...
+# Subtest: exact migration retains v18 destinations, account-independent IDs and eleven real entrances
+ok 226 - exact migration retains v18 destinations, account-independent IDs and eleven real entrances
+  ---
+  duration_ms: 2.702667
+  type: 'test'
+  ...
+# Subtest: all nineteen thresholds, client exits and native boarding points are physically usable
+ok 227 - all nineteen thresholds, client exits and native boarding points are physically usable
+  ---
+  duration_ms: 7.600583
+  type: 'test'
+  ...
+# Subtest: native foreground masks reapply existing source pixels without altering the empty city
+ok 228 - native foreground masks reapply existing source pixels without altering the empty city
+  ---
+  duration_ms: 101.643417
+  type: 'test'
+  ...
+# Subtest: all active action approaches follow dry native corridors and remain clear of actual supports
+ok 229 - all active action approaches follow dry native corridors and remain clear of actual supports
+  ---
+  duration_ms: 616.777417
+  type: 'test'
+  ...
+# Subtest: visible native wagons and platform edges have narrow physical ground supports
+ok 230 - visible native wagons and platform edges have narrow physical ground supports
+  ---
+  duration_ms: 18.953
+  type: 'test'
+  ...
+# Subtest: source fields contain eight native tree families spread through all city sectors
+ok 231 - source fields contain eight native tree families spread through all city sectors
+  ---
+  duration_ms: 1.097125
+  type: 'test'
+  ...
+# Subtest: native tree roots leave the entire street and footpath shoulders and every house entrance open
+ok 232 - native tree roots leave the entire street and footpath shoulders and every house entrance open
+  ---
+  duration_ms: 52.416666
+  type: 'test'
+  ...
+# Subtest: native tree supports leave buildings, lamps, bins and usable activity areas unobstructed
+ok 233 - native tree supports leave buildings, lamps, bins and usable activity areas unobstructed
+  ---
+  duration_ms: 9.131625
+  type: 'test'
+  ...
+# Subtest: tree supports stay on dry map land with distinct ground space in dense canopy groups
+ok 234 - tree supports stay on dry map land with distinct ground space in dense canopy groups
+  ---
+  duration_ms: 20.978625
+  type: 'test'
+  ...
+# Subtest: source front gardens occupy usable clear ground beside their own building approach
+ok 235 - source front gardens occupy usable clear ground beside their own building approach
+  ---
+  duration_ms: 4.691875
+  type: 'test'
+  ...
+# Subtest: all current native animal routes keep an eighteen-pixel body clear of actual ground supports, including loop closure
+ok 236 - all current native animal routes keep an eighteen-pixel body clear of actual ground supports, including loop closure
+  ---
+  duration_ms: 62.870083
+  type: 'test'
+  ...
+# Subtest: tree crowns leave the smoking platform, fountain, gazebo and train windows visible
+ok 237 - tree crowns leave the smoking platform, fountain, gazebo and train windows visible
+  ---
+  duration_ms: 0.627166
+  type: 'test'
+  ...
+# Subtest: jury never enters identifiable city or sky during unfinished assignment
+ok 238 - jury never enters identifiable city or sky during unfinished assignment
+  ---
+  duration_ms: 0.58875
+  type: 'test'
+  ...
+# Subtest: waiting participants remain in preflight and active participants enter sky
+ok 239 - waiting participants remain in preflight and active participants enter sky
+  ---
+  duration_ms: 0.08225
+  type: 'test'
+  ...
+# Subtest: takeoff occurs once on same lobby waiting to active transition
+ok 240 - takeoff occurs once on same lobby waiting to active transition
+  ---
+  duration_ms: 0.094792
+  type: 'test'
+  ...
+# Subtest: first buzz captions reflect server authorization and winning unit
+ok 241 - first buzz captions reflect server authorization and winning unit
+  ---
+  duration_ms: 0.088417
+  type: 'test'
+  ...
+# Subtest: nickname edits cannot add arbitrary fields to saved avatar payload
+ok 242 - nickname edits cannot add arbitrary fields to saved avatar payload
+  ---
+  duration_ms: 0.466792
+  type: 'test'
+  ...
+# Subtest: city automatically routes an authorized arena snapshot to its active lobby
+ok 243 - city automatically routes an authorized arena snapshot to its active lobby
+  ---
+  duration_ms: 0.087125
+  type: 'test'
+  ...
+# Subtest: restricted jury and malformed world snapshots never route to identifiable arena
+ok 244 - restricted jury and malformed world snapshots never route to identifiable arena
+  ---
+  duration_ms: 0.066959
+  type: 'test'
+  ...
+# Subtest: all existing participants follow arena routing from city or editing screens only
+ok 245 - all existing participants follow arena routing from city or editing screens only
+  ---
+  duration_ms: 0.077166
+  type: 'test'
+  ...
+# Subtest: participants waiting in another lobby or viewing results follow an active arena assignment
+ok 246 - participants waiting in another lobby or viewing results follow an active arena assignment
+  ---
+  duration_ms: 0.107
+  type: 'test'
+  ...
+# Subtest: view settings clamp zoom and preserve explicit hidden nickname choice
+ok 247 - view settings clamp zoom and preserve explicit hidden nickname choice
+  ---
+  duration_ms: 0.674708
+  type: 'test'
+  ...
+# Subtest: social polling is confined to an open visible unrestricted phone
+ok 248 - social polling is confined to an open visible unrestricted phone
+  ---
+  duration_ms: 0.240708
+  type: 'test'
+  ...
+# Subtest: message drafts are separated by sender and recipient
+ok 249 - message drafts are separated by sender and recipient
+  ---
+  duration_ms: 0.120291
+  type: 'test'
+  ...
+# Subtest: city mounting preserves base and migrates district into unified city
+ok 250 - city mounting preserves base and migrates district into unified city
+  ---
+  duration_ms: 0.083709
+  type: 'test'
+  ...
+# Subtest: reload mounts only an authorized matching public interior and rejects stale room metadata
+ok 251 - reload mounts only an authorized matching public interior and rejects stale room metadata
+  ---
+  duration_ms: 0.1385
+  type: 'test'
+  ...
+# Subtest: rotating native furniture retains its visible height and aligns its feet to the ground
+ok 252 - rotating native furniture retains its visible height and aligns its feet to the ground
+  ---
+  duration_ms: 1.731
+  type: 'test'
+  ...
+# Subtest: native editor previews keep the same zoom and ground anchor while rotating
+ok 253 - native editor previews keep the same zoom and ground anchor while rotating
+  ---
+  duration_ms: 2.541125
+  type: 'test'
+  ...
+# Subtest: the actual editor preview keeps all 240 native furnishing views within its canvas
+ok 254 - the actual editor preview keeps all 240 native furnishing views within its canvas
+  ---
+  duration_ms: 3.917084
+  type: 'test'
+  ...
+# Subtest: fallback furnishing projection retains its existing scale and ground anchor
+ok 255 - fallback furnishing projection retains its existing scale and ground anchor
+  ---
+  duration_ms: 0.22575
+  type: 'test'
+  ...
+# Subtest: furniture has four independently drawn facing views rather than a turned flat picture
+ok 256 - furniture has four independently drawn facing views rather than a turned flat picture
+  ---
+  duration_ms: 10.554958
+  type: 'test'
+  ...
+# Subtest: all orientation art uses valid pixel rectangles at any world position
+ok 257 - all orientation art uses valid pixel rectangles at any world position
+  ---
+  duration_ms: 9.524375
+  type: 'test'
+  ...
+# Subtest: furniture texture and geometry remain unchanged when moved to another grid cell
+ok 258 - furniture texture and geometry remain unchanged when moved to another grid cell
+  ---
+  duration_ms: 7.131
+  type: 'test'
+  ...
+# Subtest: every facing keeps the selected palette and premium distinction
+ok 259 - every facing keeps the selected palette and premium distinction
+  ---
+  duration_ms: 16.918292
+  type: 'test'
+  ...
+# Subtest: sideways screens stay connected to their supports instead of hovering above the floor
+ok 260 - sideways screens stay connected to their supports instead of hovering above the floor
+  ---
+  duration_ms: 0.226
+  type: 'test'
+  ...
+# Subtest: the square dining table keeps the same full-depth tabletop in every facing
+ok 261 - the square dining table keeps the same full-depth tabletop in every facing
+  ---
+  duration_ms: 0.228917
+  type: 'test'
+  ...
+# Subtest: the seated furniture exports separate foreground art and visual anchors
+ok 262 - the seated furniture exports separate foreground art and visual anchors
+  ---
+  duration_ms: 0.4235
+  type: 'test'
+  ...
+# Subtest: the foreground preserves every seated head for male, female and phone poses
+ok 263 - the foreground preserves every seated head for male, female and phone poses
+  ---
+  duration_ms: 397.898041
+  type: 'test'
+  ...
+# Subtest: each furnishing offers four saved directions
+ok 264 - each furnishing offers four saved directions
+  ---
+  duration_ms: 1.268209
+  type: 'test'
+  ...
+# Subtest: four directions use the whole rotated floor footprint and reject unsupported values
+ok 265 - four directions use the whole rotated floor footprint and reject unsupported values
+  ---
+  duration_ms: 0.527917
+  type: 'test'
+  ...
+# Subtest: seats turn with furniture and keep stable identifiers and matching facing
+ok 266 - seats turn with furniture and keep stable identifiers and matching facing
+  ---
+  duration_ms: 0.315834
+  type: 'test'
+  ...
+# Subtest: legacy furniture stays compact and the R shortcut follows physical keyboard layout
+ok 267 - legacy furniture stays compact and the R shortcut follows physical keyboard layout
+  ---
+  duration_ms: 0.112583
+  type: 'test'
+  ...
+# Subtest: seated local and neighboring avatars face the rotated seat while keeping their phone
+ok 268 - seated local and neighboring avatars face the rotated seat while keeping their phone
+  ---
+  duration_ms: 0.174583
+  type: 'test'
+  ...
+# Subtest: seated drawing is placed between the furniture body and its front edge without changing physical presence
+ok 269 - seated drawing is placed between the furniture body and its front edge without changing physical presence
+  ---
+  duration_ms: 0.16475
+  type: 'test'
+  ...
+# Subtest: phone groups retain all12 apps with explicit navigation and pixel icons
+ok 270 - phone groups retain all12 apps with explicit navigation and pixel icons
+  ---
+  duration_ms: 0.923
+  type: 'test'
+  ...
+# Subtest: complex phone views expand automatically and quick tools retain the compact city view
+ok 271 - complex phone views expand automatically and quick tools retain the compact city view
+  ---
+  duration_ms: 0.107416
+  type: 'test'
+  ...
+# Subtest: inventory symbols distinguish food and pets while preserving item actions and counts
+ok 272 - inventory symbols distinguish food and pets while preserving item actions and counts
+  ---
+  duration_ms: 1.260125
+  type: 'test'
+  ...
+# Subtest: lobby offers mode and topic first while retaining every optional submit field
+ok 273 - lobby offers mode and topic first while retaining every optional submit field
+  ---
+  duration_ms: 0.39575
+  type: 'test'
+  ...
+# Subtest: catalog offers4 real directions without changing the locked nickname
+ok 274 - catalog offers4 real directions without changing the locked nickname
+  ---
+  duration_ms: 13.662708
+  type: 'test'
+  ...
+# Subtest: hair previews crop to the head and costumes retain the fullbody frame
+ok 275 - hair previews crop to the head and costumes retain the fullbody frame
+  ---
+  duration_ms: 2.983333
+  type: 'test'
+  ...
+# Subtest: the current answering unit is visible in sky while curator identities remain hidden
+ok 276 - the current answering unit is visible in sky while curator identities remain hidden
+  ---
+  duration_ms: 14.819958
+  type: 'test'
+  ...
+# Subtest: final podium preserves shared places, fractional points and real clan metadata
+ok 277 - final podium preserves shared places, fractional points and real clan metadata
+  ---
+  duration_ms: 2.2215
+  type: 'test'
+  ...
+# Subtest: construction catalog has six real architectural previews and the shared allowed palette
+ok 278 - construction catalog has six real architectural previews and the shared allowed palette
+  ---
+  duration_ms: 3.63425
+  type: 'test'
+  ...
+# Subtest: house palette never inserts arbitrary markup and the clan flag remains an independent colour
+ok 279 - house palette never inserts arbitrary markup and the clan flag remains an independent colour
+  ---
+  duration_ms: 1.36225
+  type: 'test'
+  ...
+# Subtest: vacant construction plots retain an approach gate without drawing a roof or windows
+ok 280 - vacant construction plots retain an approach gate without drawing a roof or windows
+  ---
+  duration_ms: 0.5405
+  type: 'test'
+  ...
+# Subtest: previously saved strict hex facade colours remain visible even outside the new construction palette
+ok 281 - previously saved strict hex facade colours remain visible even outside the new construction palette
+  ---
+  duration_ms: 2.5955
+  type: 'test'
+  ...
+# Subtest: floor zones are drawn from the room plan rather than a universal entrance rug
+ok 282 - floor zones are drawn from the room plan rather than a universal entrance rug
+  ---
+  duration_ms: 8.869
+  type: 'test'
+  ...
+# Subtest: nearby checkout beats a farther available seat, while claimed seats stay unavailable
+ok 283 - nearby checkout beats a farther available seat, while claimed seats stay unavailable
+  ---
+  duration_ms: 0.204875
+  type: 'test'
+  ...
+# Subtest: the exact doorway always remains an exit when a nearby seat is available
+ok 284 - the exact doorway always remains an exit when a nearby seat is available
+  ---
+  duration_ms: 0.075083
+  type: 'test'
+  ...
+# Subtest: room minimap shows local furniture and the real local player position
+ok 285 - room minimap shows local furniture and the real local player position
+  ---
+  duration_ms: 0.213375
+  type: 'test'
+  ...
+# Subtest: seat orientation comes from authoritative chair geometry for sitting and restoring
+ok 286 - seat orientation comes from authoritative chair geometry for sitting and restoring
+  ---
+  duration_ms: 0.239
+  type: 'test'
+  ...
+# Subtest: public furnishings share the 80-unit human scale rather than sizing height from a huge width
+ok 287 - public furnishings share the 80-unit human scale rather than sizing height from a huge width
+  ---
+  duration_ms: 0.802792
+  type: 'test'
+  ...
+# Subtest: all eleven walking floors use an existing flat material at a fixed tile size
+ok 288 - all eleven walking floors use an existing flat material at a fixed tile size
+  ---
+  duration_ms: 0.109666
+  type: 'test'
+  ...
+# Subtest: food displays contain native food props and do not show books as groceries
+ok 289 - food displays contain native food props and do not show books as groceries
+  ---
+  duration_ms: 0.493084
+  type: 'test'
+  ...
+# Subtest: grocery displays form paired sales rows with human-sized passages and real native glass cabinets
+ok 290 - grocery displays form paired sales rows with human-sized passages and real native glass cabinets
+  ---
+  duration_ms: 0.584375
+  type: 'test'
+  ...
+# Subtest: all room entrances retain a clear 120-unit central approach to the service area
+ok 291 - all room entrances retain a clear 120-unit central approach to the service area
+  ---
+  duration_ms: 0.134625
+  type: 'test'
+  ...
+# Subtest: ordinary rear wall modules have a human-sized height without stretching their source aspect
+ok 292 - ordinary rear wall modules have a human-sized height without stretching their source aspect
+  ---
+  duration_ms: 0.137458
+  type: 'test'
+  ...
+# Subtest: native standing doors are taller than the person and retain their floor support and source aspect
+ok 293 - native standing doors are taller than the person and retain their floor support and source aspect
+  ---
+  duration_ms: 0.119875
+  type: 'test'
+  ...
+# Subtest: wall lamps leave the native signs and other mounted details readable
+ok 294 - wall lamps leave the native signs and other mounted details readable
+  ---
+  duration_ms: 0.41175
+  type: 'test'
+  ...
+# Subtest: the rendered walking plane repeats a native 320-unit sheet instead of enlarged perspective lines
+ok 295 - the rendered walking plane repeats a native 320-unit sheet instead of enlarged perspective lines
+  ---
+  duration_ms: 621.457041
+  type: 'test'
+  ...
+# Subtest: native displayed groceries actually paint above their low display support
+ok 296 - native displayed groceries actually paint above their low display support
+  ---
+  duration_ms: 1.336042
+  type: 'test'
+  ...
+# Subtest: glass displays reuse the exact cabinet pixels without drawing the source facade or roof
+ok 297 - glass displays reuse the exact cabinet pixels without drawing the source facade or roof
+  ---
+  duration_ms: 7.015667
+  type: 'test'
+  ...
+# Subtest: modular layouts retain all physical city doors, room identities and existing feature actions
+ok 298 - modular layouts retain all physical city doors, room identities and existing feature actions
+  ---
+  duration_ms: 0.910875
+  type: 'test'
+  ...
+# Subtest: every modular source furnishing and seller has exactly its authoritative physical support
+ok 299 - every modular source furnishing and seller has exactly its authoritative physical support
+  ---
+  duration_ms: 8.125792
+  type: 'test'
+  ...
+# Subtest: service bindings belong to authored counters or the native hub statue, with clear exits
+ok 300 - service bindings belong to authored counters or the native hub statue, with clear exits
+  ---
+  duration_ms: 0.266375
+  type: 'test'
+  ...
+# Subtest: all seats bind actual source chairs, stools or three-seat sections with clear approaches
+ok 301 - all seats bind actual source chairs, stools or three-seat sections with clear approaches
+  ---
+  duration_ms: 0.364209
+  type: 'test'
+  ...
+# Subtest: casino modular scene preserves six roulette chairs, six card chairs, two slots and two bar stools
+ok 302 - casino modular scene preserves six roulette chairs, six card chairs, two slots and two bar stools
+  ---
+  duration_ms: 0.132458
+  type: 'test'
+  ...
+# Subtest: body-radius navigation reaches every authored entry, service, exit and seat approach
+ok 303 - body-radius navigation reaches every authored entry, service, exit and seat approach
+  ---
+  duration_ms: 266.824334
+  type: 'test'
+  ...
+# Subtest: missing dedicated scenes compose documented native modules instead of reusing a whole bar
+ok 304 - missing dedicated scenes compose documented native modules instead of reusing a whole bar
+  ---
+  duration_ms: 0.303375
+  type: 'test'
+  ...
+# Subtest: fine wood and stone texture stay inside the assigned floor plane
+ok 305 - fine wood and stone texture stay inside the assigned floor plane
+  ---
+  duration_ms: 7.779166
+  type: 'test'
+  ...
+# Subtest: floor material remains deterministic and supports stored dark and light custom palettes
+ok 306 - floor material remains deterministic and supports stored dark and light custom palettes
+  ---
+  duration_ms: 1.100458
+  type: 'test'
+  ...
+# Subtest: sofa cushions use local width at arbitrary world positions instead of painting negative spans
+ok 307 - sofa cushions use local width at arbitrary world positions instead of painting negative spans
+  ---
+  duration_ms: 1.200208
+  type: 'test'
+  ...
+# Subtest: modern interior catalog has separate recognizable art for all 33 furniture types
+ok 308 - modern interior catalog has separate recognizable art for all 33 furniture types
+  ---
+  duration_ms: 6.851458
+  type: 'test'
+  ...
+# Subtest: every prop is an independent depth object with its physical front edge
+ok 309 - every prop is an independent depth object with its physical front edge
+  ---
+  duration_ms: 0.433625
+  type: 'test'
+  ...
+# Subtest: all prop paint coordinates are finite integer pixels and dimensions never turn negative
+ok 310 - all prop paint coordinates are finite integer pixels and dimensions never turn negative
+  ---
+  duration_ms: 4.642958
+  type: 'test'
+  ...
+# Subtest: furniture appearance is deterministic and custom colors remain visible
+ok 311 - furniture appearance is deterministic and custom colors remain visible
+  ---
+  duration_ms: 15.340958
+  type: 'test'
+  ...
+# Subtest: the visual envelope includes all painted pixels even for small furniture
+ok 312 - the visual envelope includes all painted pixels even for small furniture
+  ---
+  duration_ms: 4.240209
+  type: 'test'
+  ...
+# Subtest: an unsupported or corrupt decorative prop does not interrupt the room rendering
+ok 313 - an unsupported or corrupt decorative prop does not interrupt the room rendering
+  ---
+  duration_ms: 0.2595
+  type: 'test'
+  ...
+# Subtest: a suspended board leaves its passable floor clear while a standing board has legs and a shadow
+ok 314 - a suspended board leaves its passable floor clear while a standing board has legs and a shadow
+  ---
+  duration_ms: 0.346584
+  type: 'test'
+  ...
+# Subtest: every bag item has its own detailed colored pixel drawing
+ok 315 - every bag item has its own detailed colored pixel drawing
+  ---
+  duration_ms: 0.987042
+  type: 'test'
+  ...
+# Subtest: item drawings stay on a safe crisp 32px grid
+ok 316 - item drawings stay on a safe crisp 32px grid
+  ---
+  duration_ms: 0.763375
+  type: 'test'
+  ...
+# Subtest: actual catalog ids and category fallbacks resolve without drawing arbitrary input
+ok 317 - actual catalog ids and category fallbacks resolve without drawing arbitrary input
+  ---
+  duration_ms: 0.364417
+  type: 'test'
+  ...
+# Subtest: colored bag rendering preserves ten explicit selection targets and existing actions
+ok 318 - colored bag rendering preserves ten explicit selection targets and existing actions
+  ---
+  duration_ms: 2.717125
+  type: 'test'
+  ...
+# Subtest: phone apps render all12 approved phone glyphs independently of bag art
+ok 319 - phone apps render all12 approved phone glyphs independently of bag art
+  ---
+  duration_ms: 0.360042
+  type: 'test'
+  ...
+# Subtest: the10slot bag stacks quantities and excludes catalog cosmetics and furniture
+ok 320 - the10slot bag stacks quantities and excludes catalog cosmetics and furniture
+  ---
+  duration_ms: 0.806792
+  type: 'test'
+  ...
+# Subtest: bag has exactly10 finger-selectable slots and selection never consumes an item
+ok 321 - bag has exactly10 finger-selectable slots and selection never consumes an item
+  ---
+  duration_ms: 0.9625
+  type: 'test'
+  ...
+# Subtest: nonconsumable bag items retain meaningful actions and selected pets cannot be called twice
+ok 322 - nonconsumable bag items retain meaningful actions and selected pets cannot be called twice
+  ---
+  duration_ms: 0.566583
+  type: 'test'
+  ...
+# Subtest: missing selection leaves a choice prompt and all names are escaped
+ok 323 - missing selection leaves a choice prompt and all names are escaped
+  ---
+  duration_ms: 0.166625
+  type: 'test'
+  ...
+# Subtest: visible bridge deck uses the same centre line and width as the pedestrian strip
+ok 324 - visible bridge deck uses the same centre line and width as the pedestrian strip
+  ---
+  duration_ms: 0.967167
+  type: 'test'
+  ...
+# Subtest: invalid and zero-length bridge segments do not enter the draw list
+ok 325 - invalid and zero-length bridge segments do not enter the draw list
+  ---
+  duration_ms: 0.087459
+  type: 'test'
+  ...
+# Subtest: drawn bridge leaves a continuous deck between the land endpoints
+ok 326 - drawn bridge leaves a continuous deck between the land endpoints
+  ---
+  duration_ms: 0.331042
+  type: 'test'
+  ...
+# Subtest: changing stake after an unknown spin response recovers its original request first
+ok 327 - changing stake after an unknown spin response recovers its original request first
+  ---
+  duration_ms: 3.898417
+  type: 'test'
+  ...
+# Subtest: a successful send preserves text typed while its response was pending
+ok 328 - a successful send preserves text typed while its response was pending
+  ---
+  duration_ms: 2.421167
+  type: 'test'
+  ...
+# Subtest: a late send response does not update a reopened conversation
+ok 329 - a late send response does not update a reopened conversation
+  ---
+  duration_ms: 1.103291
+  type: 'test'
+  ...
+# Subtest: an older economy read cannot overwrite a completed purchase
+ok 330 - an older economy read cannot overwrite a completed purchase
+  ---
+  duration_ms: 1.672833
+  type: 'test'
+  ...
+# Subtest: a stale home notification denial cannot replace a newer screen
+ok 331 - a stale home notification denial cannot replace a newer screen
+  ---
+  duration_ms: 1.323666
+  type: 'test'
+  ...
+# Subtest: hidden and busy polling does not start phone or card requests
+ok 332 - hidden and busy polling does not start phone or card requests
+  ---
+  duration_ms: 0.782083
+  type: 'test'
+  ...
+# Subtest: hiding during a phone poll prevents follow-up fishing and economy queries
+ok 333 - hiding during a phone poll prevents follow-up fishing and economy queries
+  ---
+  duration_ms: 0.643958
+  type: 'test'
+  ...
+# Subtest: hiding during the fishing read prevents a following economy request
+ok 334 - hiding during the fishing read prevents a following economy request
+  ---
+  duration_ms: 1.4005
+  type: 'test'
+  ...
+# Subtest: city20 independently assembles resources and retains the exact19 migration positions
+ok 335 - city20 independently assembles resources and retains the exact19 migration positions
+  ---
+  duration_ms: 1.510583
+  type: 'test'
+  ...
+# Subtest: source neighbourhood composition and real residential side images form dense quarters
+ok 336 - source neighbourhood composition and real residential side images form dense quarters
+  ---
+  duration_ms: 0.183125
+  type: 'test'
+  ...
+# Subtest: source door anchor, physical landing and all actual city return offsets agree
+ok 337 - source door anchor, physical landing and all actual city return offsets agree
+  ---
+  duration_ms: 6.795416
+  type: 'test'
+  ...
+# Subtest: complete connected road corridors contain no solid support
+ok 338 - complete connected road corridors contain no solid support
+  ---
+  duration_ms: 176.727708
+  type: 'test'
+  ...
+# Subtest: two claimed bench seats stay within the support while their visual pose sits in front and can stand up
+ok 339 - two claimed bench seats stay within the support while their visual pose sits in front and can stand up
+  ---
+  duration_ms: 2.613208
+  type: 'test'
+  ...
+# Subtest: all authored interaction routes walk exactly from the real park origin without touching props or water
+ok 340 - all authored interaction routes walk exactly from the real park origin without touching props or water
+  ---
+  duration_ms: 557.520125
+  type: 'test'
+  ...
+# Subtest: twelve roaming animals keep distinct initial targets and physically clear full routes
+ok 341 - twelve roaming animals keep distinct initial targets and physically clear full routes
+  ---
+  duration_ms: 27.019292
+  type: 'test'
+  ...
+# Subtest: modular static nodes use authored native resources and support depth once; ground and private bases are separate
+ok 342 - modular static nodes use authored native resources and support depth once; ground and private bases are separate
+  ---
+  duration_ms: 1.336833
+  type: 'test'
+  ...
+# Subtest: physical supports are exactly the same authored footprints as rendered nodes, without inferred padding or phantom extras
+ok 343 - physical supports are exactly the same authored footprints as rendered nodes, without inferred padding or phantom extras
+  ---
+  duration_ms: 0.850125
+  type: 'test'
+  ...
+# Subtest: one modular ground plan owns explicit frontages and parking; architecture never adds a duplicate pass
+ok 344 - one modular ground plan owns explicit frontages and parking; architecture never adds a duplicate pass
+  ---
+  duration_ms: 0.866708
+  type: 'test'
+  ...
+# Subtest: a modular prop draws its own solid native crop with uniform aspect and does not replay any full-map pixels
+ok 345 - a modular prop draws its own solid native crop with uniform aspect and does not replay any full-map pixels
+  ---
+  duration_ms: 128.968625
+  type: 'test'
+  ...
+# Subtest: modular ground renders a provided ground resource once and its metadata cannot enable historic full-map replay
+ok 346 - modular ground renders a provided ground resource once and its metadata cannot enable historic full-map replay
+  ---
+  duration_ms: 3.512167
+  type: 'test'
+  ...
+# Subtest: changing a built clan facade keeps its actual source staircase, canonical entrance and shared support fixed
+ok 347 - changing a built clan facade keeps its actual source staircase, canonical entrance and shared support fixed
+  ---
+  duration_ms: 0.278292
+  type: 'test'
+  ...
+# Subtest: the supplied flat pier component keeps native pixels and aspect through an explicit ground rotation
+ok 348 - the supplied flat pier component keeps native pixels and aspect through an explicit ground rotation
+  ---
+  duration_ms: 17.554333
+  type: 'test'
+  ...
+# Subtest: a missing modular native facade never produces a procedural replacement building
+ok 349 - a missing modular native facade never produces a procedural replacement building
+  ---
+  duration_ms: 0.703625
+  type: 'test'
+  ...
+# Subtest: native modular lamp, vehicle and bin use their real ground depth in front of and behind an actual source actor
+ok 350 - native modular lamp, vehicle and bin use their real ground depth in front of and behind an actual source actor
+  ---
+  duration_ms: 87.363625
+  type: 'test'
+  ...
+# Subtest: all six built native facades fit every private plot without covering another building or a visible street
+ok 351 - all six built native facades fit every private plot without covering another building or a visible street
+  ---
+  duration_ms: 5.452875
+  type: 'test'
+  ...
+# Subtest: every selectable facade keeps the real door and its return landing physically clear
+ok 352 - every selectable facade keeps the real door and its return landing physically clear
+  ---
+  duration_ms: 9.91825
+  type: 'test'
+  ...
+# Subtest: city seat display preserves its claim while phone and labels use the front anchor
+ok 353 - city seat display preserves its claim while phone and labels use the front anchor
+  ---
+  duration_ms: 1.324459
+  type: 'test'
+  ...
+# Subtest: visible door action uses the same radius as the server
+ok 354 - visible door action uses the same radius as the server
+  ---
+  duration_ms: 0.15575
+  type: 'test'
+  ...
+# Subtest: animated water stays below an independently drawn dock throughout its wave cycle
+ok 355 - animated water stays below an independently drawn dock throughout its wave cycle
+  ---
+  duration_ms: 264.412041
+  type: 'test'
+  ...
+# Subtest: the native lamp head and pole stay in front of a legal player standing behind their ground base
+ok 356 - the native lamp head and pole stay in front of a legal player standing behind their ground base
+  ---
+  duration_ms: 38.684917
+  type: 'test'
+  ...
+# Subtest: the same lamp stays behind a player standing in front of its physical base
+ok 357 - the same lamp stays behind a player standing in front of its physical base
+  ---
+  duration_ms: 5.927709
+  type: 'test'
+  ...
+# Subtest: lamp silhouettes do not erase the player standing on adjacent visible pavement
+ok 358 - lamp silhouettes do not erase the player standing on adjacent visible pavement
+  ---
+  duration_ms: 6.739916
+  type: 'test'
+  ...
+# Subtest: the parked native car covers the player shadow behind its body and stays behind a player in front
+ok 359 - the parked native car covers the player shadow behind its body and stays behind a player in front
+  ---
+  duration_ms: 28.062375
+  type: 'test'
+  ...
+# Subtest: the actual freestanding sign frame occludes the body of a player behind its feet
+ok 360 - the actual freestanding sign frame occludes the body of a player behind its feet
+  ---
+  duration_ms: 6.732292
+  type: 'test'
+  ...
+# Subtest: each visible native train body covers a player behind its local diagonal ground edge
+ok 361 - each visible native train body covers a player behind its local diagonal ground edge
+  ---
+  duration_ms: 24.442333
+  type: 'test'
+  ...
+# Subtest: diagonal coaches use their local ground edge rather than the farthest carriage corner
+ok 362 - diagonal coaches use their local ground edge rather than the farthest carriage corner
+  ---
+  duration_ms: 5.910417
+  type: 'test'
+  ...
+# Subtest: actual platform canopies and vertical panels occlude players while their open front floor remains usable
+ok 363 - actual platform canopies and vertical panels occlude players while their open front floor remains usable
+  ---
+  duration_ms: 35.687041
+  type: 'test'
+  ...
+# Subtest: the two narrow railway bridge posts cover actors behind them without masking the open gap
+ok 364 - the two narrow railway bridge posts cover actors behind them without masking the open gap
+  ---
+  duration_ms: 20.627791
+  type: 'test'
+  ...
+# Subtest: a geometric courtyard floor joins its entire vehicle entry without a curb or painted stripe
+ok 365 - a geometric courtyard floor joins its entire vehicle entry without a curb or painted stripe
+  ---
+  duration_ms: 8.007708
+  type: 'test'
+  ...
+# Subtest: a separate pedestrian mouth cuts the real upper curb and keeps both flanking curb pieces
+ok 366 - a separate pedestrian mouth cuts the real upper curb and keeps both flanking curb pieces
+  ---
+  duration_ms: 6.586625
+  type: 'test'
+  ...
+# Subtest: parking asphalt has the same world texture phase across cached ground chunks
+ok 367 - parking asphalt has the same world texture phase across cached ground chunks
+  ---
+  duration_ms: 6.502
+  type: 'test'
+  ...
+# Subtest: the map and game share parking outlines, slots and open entry; planning does not mutate saved geometry
+ok 368 - the map and game share parking outlines, slots and open entry; planning does not mutate saved geometry
+  ---
+  duration_ms: 5.79025
+  type: 'test'
+  ...
+# Subtest: an authored lake has a continuous dry stone edge without changing its walkable island or water boundary
+ok 369 - an authored lake has a continuous dry stone edge without changing its walkable island or water boundary
+  ---
+  duration_ms: 3.660291
+  type: 'test'
+  ...
+# Subtest: following pet derives walking and facing from its own coordinates after its owner stops
+ok 370 - following pet derives walking and facing from its own coordinates after its owner stops
+  ---
+  duration_ms: 1.115334
+  type: 'test'
+  ...
+# Subtest: pet gait resets on transfer, teleport, invalid duration and reduced motion
+ok 371 - pet gait resets on transfer, teleport, invalid duration and reduced motion
+  ---
+  duration_ms: 0.2055
+  type: 'test'
+  ...
+# Subtest: reduced motion freezes walking paws, tails and reaction decoration while animals remain visible
+ok 372 - reduced motion freezes walking paws, tails and reaction decoration while animals remain visible
+  ---
+  duration_ms: 1.396125
+  type: 'test'
+  ...
+# Subtest: cats and dogs have their own tail and face reactions without lifting grounded paws
+ok 373 - cats and dogs have their own tail and face reactions without lifting grounded paws
+  ---
+  duration_ms: 0.207792
+  type: 'test'
+  ...
+# Subtest: casino reels fit three cells in the measured narrow phone screen
+ok 374 - casino reels fit three cells in the measured narrow phone screen
+  ---
+  duration_ms: 2.655083
+  type: 'test'
+  ...
+# Subtest: phone text can wrap maximum-length names in paragraphs and destination controls
+ok 375 - phone text can wrap maximum-length names in paragraphs and destination controls
+  ---
+  duration_ms: 2.2
+  type: 'test'
+  ...
+# Subtest: construction, account switch and card actions retain 44px touch targets
+ok 376 - construction, account switch and card actions retain 44px touch targets
+  ---
+  duration_ms: 2.460583
+  type: 'test'
+  ...
+# Subtest: 320px portrait phone grid fits 44px controls without overlap
+ok 377 - 320px portrait phone grid fits 44px controls without overlap
+  ---
+  duration_ms: 0.478166
+  type: 'test'
+  ...
+# Subtest: 844×390 landscape phone grid fits 44px controls without overlap
+ok 378 - 844×390 landscape phone grid fits 44px controls without overlap
+  ---
+  duration_ms: 0.123542
+  type: 'test'
+  ...
+# Subtest: small landscape phone grid fits 44px controls without overlap
+ok 379 - small landscape phone grid fits 44px controls without overlap
+  ---
+  duration_ms: 0.1065
+  type: 'test'
+  ...
+# Subtest: expanded portrait phone grid fits 44px controls without overlap
+ok 380 - expanded portrait phone grid fits 44px controls without overlap
+  ---
+  duration_ms: 0.117833
+  type: 'test'
+  ...
+# Subtest: a delayed clan response cannot replace a newer phone application
+ok 381 - a delayed clan response cannot replace a newer phone application
+  ---
+  duration_ms: 2.688709
+  type: 'test'
+  ...
+# Subtest: a delayed phone bootstrap cannot restore the previous account after logout
+ok 382 - a delayed phone bootstrap cannot restore the previous account after logout
+  ---
+  duration_ms: 1.798625
+  type: 'test'
+  ...
+# Subtest: a delayed world response cannot restore phone state after the screen changes
+ok 383 - a delayed world response cannot restore phone state after the screen changes
+  ---
+  duration_ms: 0.815167
+  type: 'test'
+  ...
+# Subtest: a delayed construction request cannot reopen a modal after leaving the city
+ok 384 - a delayed construction request cannot reopen a modal after leaving the city
+  ---
+  duration_ms: 1.160583
+  type: 'test'
+  ...
+# Subtest: a delayed construction request cannot stack its modal over the game menu
+ok 385 - a delayed construction request cannot stack its modal over the game menu
+  ---
+  duration_ms: 0.756333
+  type: 'test'
+  ...
+# Subtest: closing the Escape menu cannot restore a construction request waiting for world
+ok 386 - closing the Escape menu cannot restore a construction request waiting for world
+  ---
+  duration_ms: 1.055208
+  type: 'test'
+  ...
+# Subtest: closing the Escape menu cannot restore a construction request waiting for clan
+ok 387 - closing the Escape menu cannot restore a construction request waiting for clan
+  ---
+  duration_ms: 1.029459
+  type: 'test'
+  ...
+# Subtest: the queued native phone close event does not cancel a valid construction request
+ok 388 - the queued native phone close event does not cancel a valid construction request
+  ---
+  duration_ms: 2.154625
+  type: 'test'
+  ...
+# Subtest: a delayed conversation invitation list cannot replace the next conversation state
+ok 389 - a delayed conversation invitation list cannot replace the next conversation state
+  ---
+  duration_ms: 1.028917
+  type: 'test'
+  ...
+# Subtest: a delayed conversation response stops before reading a logged-out account
+ok 390 - a delayed conversation response stops before reading a logged-out account
+  ---
+  duration_ms: 0.775125
+  type: 'test'
+  ...
+# Subtest: compact builder keeps preview and nickname before the internally scrollable groups
+ok 391 - compact builder keeps preview and nickname before the internally scrollable groups
+  ---
+  duration_ms: 36.537708
+  type: 'test'
+  ...
+# Subtest: miniatures and palette keep existing action contracts and actual selected parts
+ok 392 - miniatures and palette keep existing action contracts and actual selected parts
+  ---
+  duration_ms: 14.312042
+  type: 'test'
+  ...
+# Subtest: owned outfits alone unlock their choices and all7costumes remain present
+ok 393 - owned outfits alone unlock their choices and all7costumes remain present
+  ---
+  duration_ms: 7.608875
+  type: 'test'
+  ...
+# Subtest: locked nickname and all user strings are escaped; invalid groups use safe fallbacks
+ok 394 - locked nickname and all user strings are escaped; invalid groups use safe fallbacks
+  ---
+  duration_ms: 21.687125
+  type: 'test'
+  ...
+# Subtest: hairstyle options stay visible under an equipped hat or full outfit
+ok 395 - hairstyle options stay visible under an equipped hat or full outfit
+  ---
+  duration_ms: 2.694666
+  type: 'test'
+  ...
+# Subtest: city preserves both arms of all real intersections
+ok 396 - city preserves both arms of all real intersections
+  ---
+  duration_ms: 5652.52425
+  type: 'test'
+  ...
+# Subtest: overview preserves both arms of all real intersections
+ok 397 - overview preserves both arms of all real intersections
+  ---
+  duration_ms: 407.82275
+  type: 'test'
+  ...
+# Subtest: footpaths and forecourts cannot erase an asphalt lane anywhere along the network
+ok 398 - footpaths and forecourts cannot erase an asphalt lane anywhere along the network
+  ---
+  duration_ms: 2987.610292
+  type: 'test'
+  ...
+# Subtest: street asphalt ownership is independent of road list order
+ok 399 - street asphalt ownership is independent of road list order
+  ---
+  duration_ms: 1113.634208
+  type: 'test'
+  ...
+# Subtest: all visible front planters remain outside asphalt and clear of entrances
+ok 400 - all visible front planters remain outside asphalt and clear of entrances
+  ---
+  duration_ms: 24.179875
+  type: 'test'
+  ...
+# Subtest: zebras keep their complete paint and landings clear of every branch
+ok 401 - zebras keep their complete paint and landings clear of every branch
+  ---
+  duration_ms: 0.220041
+  type: 'test'
+  ...
+# Subtest: short front approaches reach the sidewalk without overshooting and doubling back
+ok 402 - short front approaches reach the sidewalk without overshooting and doubling back
+  ---
+  duration_ms: 0.106042
+  type: 'test'
+  ...
+# Subtest: the real non-square source asphalt paints every row without transparent repeat bands
+ok 403 - the real non-square source asphalt paints every row without transparent repeat bands
+  ---
+  duration_ms: 7.721042
+  type: 'test'
+  ...
+# Subtest: native asphalt covers both complete terminal hemispheres without painting outside the road
+ok 404 - native asphalt covers both complete terminal hemispheres without painting outside the road
+  ---
+  duration_ms: 34.6715
+  type: 'test'
+  ...
+# Subtest: native asphalt covers the entire angled junction union, including the shared terminal centre
+ok 405 - native asphalt covers the entire angled junction union, including the shared terminal centre
+  ---
+  duration_ms: 51.672666
+  type: 'test'
+  ...
+# Subtest: terminal and junction coverage rejects the former inward-clockwise arc mutation
+ok 406 - terminal and junction coverage rejects the former inward-clockwise arc mutation
+  ---
+  duration_ms: 27.745709
+  type: 'test'
+  ...
+# Subtest: source asphalt retains the native aspect ratio and exact nearest-neighbour grain
+ok 407 - source asphalt retains the native aspect ratio and exact nearest-neighbour grain
+  ---
+  duration_ms: 3.064291
+  type: 'test'
+  ...
+# Subtest: adjacent uneven ground chunks keep one world texture phase across both seams
+ok 408 - adjacent uneven ground chunks keep one world texture phase across both seams
+  ---
+  duration_ms: 3.432917
+  type: 'test'
+  ...
+# Subtest: modular diagonal pavement contains only one world-aligned slab grid; legacy angled seams remain available
+ok 409 - modular diagonal pavement contains only one world-aligned slab grid; legacy angled seams remain available
+  ---
+  duration_ms: 38.279
+  type: 'test'
+  ...
+# Subtest: cached diagonal pavement chunks retain the same world grid phase across uneven seams
+ok 410 - cached diagonal pavement chunks retain the same world grid phase across uneven seams
+  ---
+  duration_ms: 25.412667
+  type: 'test'
+  ...
+# Subtest: wide modular asphalt junction retains a continuous native texture without pedestrian seams across it
+ok 411 - wide modular asphalt junction retains a continuous native texture without pedestrian seams across it
+  ---
+  duration_ms: 8.479
+  type: 'test'
+  ...
+# Subtest: authored parking driveway uses native asphalt and its own narrow shoulder without lane markings
+ok 412 - authored parking driveway uses native asphalt and its own narrow shoulder without lane markings
+  ---
+  duration_ms: 3.781041
+  type: 'test'
+  ...
+# Subtest: native shared parking lower entrance joins its asphalt driveway without a sidewalk strip across the opening
+ok 413 - native shared parking lower entrance joins its asphalt driveway without a sidewalk strip across the opening
+  ---
+  duration_ms: 18.264083
+  type: 'test'
+  ...
+# Subtest: the centre-line driveway mouth excludes zebra and centre dashes from its shared asphalt
+ok 414 - the centre-line driveway mouth excludes zebra and centre dashes from its shared asphalt
+  ---
+  duration_ms: 11.511958
+  type: 'test'
+  ...
+# Subtest: the real carriageway-edge driveway mouth excludes zebra and centre dashes from its shared asphalt
+ok 415 - the real carriageway-edge driveway mouth excludes zebra and centre dashes from its shared asphalt
+  ---
+  duration_ms: 8.39775
+  type: 'test'
+  ...
+# Subtest: a pedestrian walkway or disconnected parking drive does not create a vehicular mouth exclusion
+ok 416 - a pedestrian walkway or disconnected parking drive does not create a vehicular mouth exclusion
+  ---
+  duration_ms: 0.340041
+  type: 'test'
+  ...
+# Subtest: road junctions include four touching segment arms at a shared polyline point
+ok 417 - road junctions include four touching segment arms at a shared polyline point
+  ---
+  duration_ms: 1.163417
+  type: 'test'
+  ...
+# Subtest: T junctions are found in the middle of a through road
+ok 418 - T junctions are found in the middle of a through road
+  ---
+  duration_ms: 0.124375
+  type: 'test'
+  ...
+# Subtest: walkways, zero length edges, bends within one road, and separate streets do not become road junctions
+ok 419 - walkways, zero length edges, bends within one road, and separate streets do not become road junctions
+  ---
+  duration_ms: 0.130708
+  type: 'test'
+  ...
+# Subtest: collinear roads sharing an endpoint produce one connection, not duplicate junctions
+ok 420 - collinear roads sharing an endpoint produce one connection, not duplicate junctions
+  ---
+  duration_ms: 0.091167
+  type: 'test'
+  ...
+# Subtest: source city intersections name actual streets and retain every touching arm
+ok 421 - source city intersections name actual streets and retain every touching arm
+  ---
+  duration_ms: 1.007625
+  type: 'test'
+  ...
+# Subtest: crossing intervals leave a full zebra and pedestrian margin clear of a middle T junction
+ok 422 - crossing intervals leave a full zebra and pedestrian margin clear of a middle T junction
+  ---
+  duration_ms: 0.229458
+  type: 'test'
+  ...
+# Subtest: a short space between two junctions is rejected rather than placing a clipped crossing
+ok 423 - a short space between two junctions is rejected rather than placing a clipped crossing
+  ---
+  duration_ms: 0.158792
+  type: 'test'
+  ...
+# Subtest: unrelated junctions do not move a crossing, and short roads have no viable crossing
+ok 424 - unrelated junctions do not move a crossing, and short roads have no viable crossing
+  ---
+  duration_ms: 0.083167
+  type: 'test'
+  ...
+# Subtest: planning junctions and crossing intervals does not mutate saved road geometry
+ok 425 - planning junctions and crossing intervals does not mutate saved road geometry
+  ---
+  duration_ms: 1.600792
+  type: 'test'
+  ...
+# Subtest: city22 roads retain two dry usable lanes and sixty-unit sidewalks
+ok 426 - city22 roads retain two dry usable lanes and sixty-unit sidewalks
+  ---
+  duration_ms: 145.217291
+  type: 'test'
+  ...
+# Subtest: shared modular floors describe actual bays and retain a complete dry envelope away from facades
+ok 427 - shared modular floors describe actual bays and retain a complete dry envelope away from facades
+  ---
+  duration_ms: 23.286167
+  type: 'test'
+  ...
+# Subtest: each larger native car fits one real bay with a model-specific size and surrounding space
+ok 428 - each larger native car fits one real bay with a model-specific size and surrounding space
+  ---
+  duration_ms: 1.441541
+  type: 'test'
+  ...
+# Subtest: each street-facing opening has a short clear driveway reaching a real main street
+ok 429 - each street-facing opening has a short clear driveway reaching a real main street
+  ---
+  duration_ms: 64.784833
+  type: 'test'
+  ...
+# Subtest: all addresses share actual parking bounds and reach their assigned lot by legal walking paths
+ok 430 - all addresses share actual parking bounds and reach their assigned lot by legal walking paths
+  ---
+  duration_ms: 94.050167
+  type: 'test'
+  ...
+# Subtest: parking pedestrian openings cut real curbs and have complete paved routes to the street or frontage
+ok 431 - parking pedestrian openings cut real curbs and have complete paved routes to the street or frontage
+  ---
+  duration_ms: 121.188875
+  type: 'test'
+  ...
+# Subtest: the smoking pad, bench and ashtray do not occupy vehicle parking parcels
+ok 432 - the smoking pad, bench and ashtray do not occupy vehicle parking parcels
+  ---
+  duration_ms: 0.293167
+  type: 'test'
+  ...
+# Subtest: frontage walks join the sidewalk with a paved landing at the visible public staircase
+ok 433 - frontage walks join the sidewalk with a paved landing at the visible public staircase
+  ---
+  duration_ms: 111.491166
+  type: 'test'
+  ...
+# Subtest: independent native crowns leave complete parking floors and vehicle mouths visible
+ok 434 - independent native crowns leave complete parking floors and vehicle mouths visible
+  ---
+  duration_ms: 40.752166
+  type: 'test'
+  ...
+# Subtest: assigned parking walks follow authored pavement rather than park lawns
+ok 435 - assigned parking walks follow authored pavement rather than park lawns
+  ---
+  duration_ms: 96.303959
+  type: 'test'
+  ...
+# Subtest: running displays each complete supplied frame without an idle-head transplant
+ok 436 - running displays each complete supplied frame without an idle-head transplant
+  ---
+  duration_ms: 23.235583
+  type: 'test'
+  ...
+# Subtest: running is exactly a four-image slideshow with no generated intermediate pose
+ok 437 - running is exactly a four-image slideshow with no generated intermediate pose
+  ---
+  duration_ms: 0.585083
+  type: 'test'
+  ...
+# Subtest: all supplied run frames share a uniform scale and have room for the full stride
+ok 438 - all supplied run frames share a uniform scale and have room for the full stride
+  ---
+  duration_ms: 0.226875
+  type: 'test'
+  ...
+# Subtest: transparent frame padding never samples a neighbouring character in the source sheet
+ok 439 - transparent frame padding never samples a neighbouring character in the source sheet
+  ---
+  duration_ms: 2.510292
+  type: 'test'
+  ...
+# Subtest: the imported actor catalog retains all 22 entities and 374 original base actions
+ok 440 - the imported actor catalog retains all 22 entities and 374 original base actions
+  ---
+  duration_ms: 37.123167
+  type: 'test'
+  ...
+# Subtest: whole walking frames advance by discrete source order without moving the feet anchor
+ok 441 - whole walking frames advance by discrete source order without moving the feet anchor
+  ---
+  duration_ms: 41.582958
+  type: 'test'
+  ...
+# Subtest: phone and food select seated source cycles without dropping the sitting context
+ok 442 - phone and food select seated source cycles without dropping the sitting context
+  ---
+  duration_ms: 0.686833
+  type: 'test'
+  ...
+# Subtest: animals use deterministic actual breeds and source gait frames at the existing world coordinate
+ok 443 - animals use deterministic actual breeds and source gait frames at the existing world coordinate
+  ---
+  duration_ms: 0.498042
+  type: 'test'
+  ...
+# Subtest: catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat
+ok 444 - catching a fish uses the authored hand-to-pocket sequence and phone stays seated on a boat
+  ---
+  duration_ms: 0.309167
+  type: 'test'
+  ...
+# Subtest: every supplied scenario and every animal action is addressable instead of silently becoming idle
+ok 445 - every supplied scenario and every animal action is addressable instead of silently becoming idle
+  ---
+  duration_ms: 2.658375
+  type: 'test'
+  ...
+# Subtest: untrusted animation identifiers cannot select inherited object properties
+ok 446 - untrusted animation identifiers cannot select inherited object properties
+  ---
+  duration_ms: 0.795125
+  type: 'test'
+  ...
+# Subtest: source pages are compact PNG atlases with normalized transparent cell bounds
+ok 447 - source pages are compact PNG atlases with normalized transparent cell bounds
+  ---
+  duration_ms: 133.839791
+  type: 'test'
+  ...
+# Subtest: canvas source rendering retains custom hair, skin, clothes and costume identity
+ok 448 - canvas source rendering retains custom hair, skin, clothes and costume identity
+  ---
+  duration_ms: 234.890459
+  type: 'test'
+  ...
+# Subtest: the source city has coherent residential blocks with houses at the visible native scale
+ok 449 - the source city has coherent residential blocks with houses at the visible native scale
+  ---
+  duration_ms: 2.999708
+  type: 'test'
+  ...
+# Subtest: street width, complete quarter paving and park canopy groups match the city composition
+ok 450 - street width, complete quarter paving and park canopy groups match the city composition
+  ---
+  duration_ms: 3.408917
+  type: 'test'
+  ...
+# Subtest: every roaming animal has its own reachable initial interaction point
+ok 451 - every roaming animal has its own reachable initial interaction point
+  ---
+  duration_ms: 9.97775
+  type: 'test'
+  ...
+# Subtest: archived exact city arrivals and all nineteen door exits leave the actor visible through actual native mask pixels
+ok 452 - archived exact city arrivals and all nineteen door exits leave the actor visible through actual native mask pixels
+  ---
+  duration_ms: 258.606709
+  type: 'test'
+  ...
+# Subtest: all source city families are selectable while saved collision and entrance data stays unchanged
+ok 453 - all source city families are selectable while saved collision and entrance data stays unchanged
+  ---
+  duration_ms: 3.093917
+  type: 'test'
+  ...
+# Subtest: city uses all eight tree species and three bench designs with grounded sprite bounds
+ok 454 - city uses all eight tree species and three bench designs with grounded sprite bounds
+  ---
+  duration_ms: 2.131542
+  type: 'test'
+  ...
+# Subtest: source courts stay clear of all saved roads, buildings and authored scenery
+ok 455 - source courts stay clear of all saved roads, buildings and authored scenery
+  ---
+  duration_ms: 0.443333
+  type: 'test'
+  ...
+# Subtest: source road texture clipping is local to the same road topology as city movement
+ok 456 - source road texture clipping is local to the same road topology as city movement
+  ---
+  duration_ms: 207.009958
+  type: 'test'
+  ...
+# Subtest: source terrace without a separate connector still renders its authored ground
+ok 457 - source terrace without a separate connector still renders its authored ground
+  ---
+  duration_ms: 3.891208
+  type: 'test'
+  ...
+# Subtest: parked source cars fit their bays, keep doors clear and stay deterministic
+ok 458 - parked source cars fit their bays, keep doors clear and stay deterministic
+  ---
+  duration_ms: 2.462375
+  type: 'test'
+  ...
+# Subtest: saved vehicle model, native paint colour and facing select the correct source view
+ok 459 - saved vehicle model, native paint colour and facing select the correct source view
+  ---
+  duration_ms: 0.126209
+  type: 'test'
+  ...
+# Subtest: new authored street bins keep the native sprite and physical support
+ok 460 - new authored street bins keep the native sprite and physical support
+  ---
+  duration_ms: 0.876208
+  type: 'test'
+  ...
+# Subtest: ready source buildings and scenery draw real native assets, inside their fitted bounds
+ok 461 - ready source buildings and scenery draw real native assets, inside their fitted bounds
+  ---
+  duration_ms: 220.085125
+  type: 'test'
+  ...
+# Subtest: frozen v19 reference rooms explicitly select five whole original scenes, without altering a private base
+ok 462 - frozen v19 reference rooms explicitly select five whole original scenes, without altering a private base
+  ---
+  duration_ms: 1.389625
+  type: 'test'
+  ...
+# Subtest: runtime PNGs are byte-for-byte copies of the current originals and draw with pixel equality
+ok 463 - runtime PNGs are byte-for-byte copies of the current originals and draw with pixel equality
+  ---
+  duration_ms: 302.176083
+  type: 'test'
+  ...
+# Subtest: each source furnishing has matching physical bindings, clear entry/service and reachable seats
+ok 464 - each source furnishing has matching physical bindings, clear entry/service and reachable seats
+  ---
+  duration_ms: 57.169792
+  type: 'test'
+  ...
+# Subtest: native casino preserves its exact sixteen chairs and two slots, without fictitious sofas
+ok 465 - native casino preserves its exact sixteen chairs and two slots, without fictitious sofas
+  ---
+  duration_ms: 0.177459
+  type: 'test'
+  ...
+# Subtest: exact preload loads one source scene only and decorations never duplicate baked equipment
+ok 466 - exact preload loads one source scene only and decorations never duplicate baked equipment
+  ---
+  duration_ms: 10.806958
+  type: 'test'
+  ...
+# Subtest: exact lazy loading fails softly in non-browser harnesses or on missing files, allowing a later retry
+ok 467 - exact lazy loading fails softly in non-browser harnesses or on missing files, allowing a later retry
+  ---
+  duration_ms: 23.880125
+  type: 'test'
+  ...
+# Subtest: source foreground masks preserve the native pixels when no actor stands behind equipment
+ok 468 - source foreground masks preserve the native pixels when no actor stands behind equipment
+  ---
+  duration_ms: 39.504209
+  type: 'test'
+  ...
+# Subtest: loaded head and headwear previews use the native source atlas rather than the retired reference renderer
+ok 469 - loaded head and headwear previews use the native source atlas rather than the retired reference renderer
+  ---
+  duration_ms: 20.996375
+  type: 'test'
+  ...
+# Subtest: native headwear hides the entire face while retaining the headwear, custom hair colour and hairstyle
+ok 470 - native headwear hides the entire face while retaining the headwear, custom hair colour and hairstyle
+  ---
+  duration_ms: 23.729292
+  type: 'test'
+  ...
+# Subtest: native head-only canvas and SVG share exactly the same cropped pixels and jury remains anonymous
+ok 471 - native head-only canvas and SVG share exactly the same cropped pixels and jury remains anonymous
+  ---
+  duration_ms: 7.393875
+  type: 'test'
+  ...
+# Subtest: native clan facades retain the actual clan name, emblem and compact house number
+ok 472 - native clan facades retain the actual clan name, emblem and compact house number
+  ---
+  duration_ms: 87.031667
+  type: 'test'
+  ...
+# Subtest: a saved exterior colour changes the native facade, rather than only an entrance stripe
+ok 473 - a saved exterior colour changes the native facade, rather than only an entrance stripe
+  ---
+  duration_ms: 865.453542
+  type: 'test'
+  ...
+# Subtest: native material masks leave source windows, roof, plants and alpha untouched and retain texture
+ok 474 - native material masks leave source windows, roof, plants and alpha untouched and retain texture
+  ---
+  duration_ms: 1739.992334
+  type: 'test'
+  ...
+# Subtest: construction preview and world use the identical cached native bitmap for historical hex colours
+ok 475 - construction preview and world use the identical cached native bitmap for historical hex colours
+  ---
+  duration_ms: 541.303625
+  type: 'test'
+  ...
+# Subtest: the sixth provided brick facade recolours actual brick while preserving both native doors, glass and rooftop equipment
+ok 476 - the sixth provided brick facade recolours actual brick while preserving both native doors, glass and rooftop equipment
+  ---
+  duration_ms: 39.150334
+  type: 'test'
+  ...
+# Subtest: every modular public wall light is anchored on the rear wall and leaves no invisible floor collision
+ok 477 - every modular public wall light is anchored on the rear wall and leaves no invisible floor collision
+  ---
+  duration_ms: 2.119291
+  type: 'test'
+  ...
+# Subtest: public wall lighting does not add a fixture to custom clan bases or remap their own lamps
+ok 478 - public wall lighting does not add a fixture to custom clan bases or remap their own lamps
+  ---
+  duration_ms: 0.473875
+  type: 'test'
+  ...
+# Subtest: room preload fetches only the native sides that its props actually display
+ok 479 - room preload fetches only the native sides that its props actually display
+  ---
+  duration_ms: 142.366542
+  type: 'test'
+  ...
+# Subtest: all fallback themes preserve native prop supports
+ok 480 - all fallback themes preserve native prop supports
+  ---
+  duration_ms: 2.749834
+  type: 'test'
+  ...
+# Subtest: clan furniture selects four distinct native views without rotating a flat picture
+ok 481 - clan furniture selects four distinct native views without rotating a flat picture
+  ---
+  duration_ms: 0.907917
+  type: 'test'
+  ...
+# Subtest: loaded source props and surfaces paint native assets on a clipped room plane
+ok 482 - loaded source props and surfaces paint native assets on a clipped room plane
+  ---
+  duration_ms: 331.977292
+  type: 'test'
+  ...
+# Subtest: native room details are attached to walls or existing supports, preserving every passage and interaction
+ok 483 - native room details are attached to walls or existing supports, preserving every passage and interaction
+  ---
+  duration_ms: 2.373459
+  type: 'test'
+  ...
+# Subtest: room preload includes its real side walls and details without downloading unrelated rooms
+ok 484 - room preload includes its real side walls and details without downloading unrelated rooms
+  ---
+  duration_ms: 0.927208
+  type: 'test'
+  ...
+# Subtest: full HEX palette reaches neutral native surfaces and black furniture while preserving alpha and shading
+ok 485 - full HEX palette reaches neutral native surfaces and black furniture while preserving alpha and shading
+  ---
+  duration_ms: 210.941666
+  type: 'test'
+  ...
+# Subtest: native props fit the room ceiling and detail renderer never rotates or mirrors their artwork
+ok 486 - native props fit the room ceiling and detail renderer never rotates or mirrors their artwork
+  ---
+  duration_ms: 2.278083
+  type: 'test'
+  ...
+# Subtest: source city uses the new station, clan, shopping and lake neighbourhoods
+ok 487 - source city uses the new station, clan, shopping and lake neighbourhoods
+  ---
+  duration_ms: 0.491125
+  type: 'test'
+  ...
+# Subtest: every building and clan plot has a connected pedestrian entrance
+ok 488 - every building and clan plot has a connected pedestrian entrance
+  ---
+  duration_ms: 0.631292
+  type: 'test'
+  ...
+# Subtest: public rooms are independent modular scenes with room for an 80-unit character
+ok 489 - public rooms are independent modular scenes with room for an 80-unit character
+  ---
+  duration_ms: 1.072042
+  type: 'test'
+  ...
+# Subtest: each visible object uses an explicit native asset with its physical front edge as the visual support
+ok 490 - each visible object uses an explicit native asset with its physical front edge as the visual support
+  ---
+  duration_ms: 9.807042
+  type: 'test'
+  ...
+# Subtest: source floors, separate walls, furnishings and NPC participate in actual lazy rendering, never the composed reference
+ok 491 - source floors, separate walls, furnishings and NPC participate in actual lazy rendering, never the composed reference
+  ---
+  duration_ms: 124.175584
+  type: 'test'
+  ...
+# Subtest: all service and seat approaches remain physically reachable through the enlarged source rooms
+ok 492 - all service and seat approaches remain physically reachable through the enlarged source rooms
+  ---
+  duration_ms: 32.179584
+  type: 'test'
+  ...
+# Subtest: public interaction radius uses the shared 110-unit contract and source lights stay out of floor collisions
+ok 493 - public interaction radius uses the shared 110-unit contract and source lights stay out of floor collisions
+  ---
+  duration_ms: 0.808208
+  type: 'test'
+  ...
+# Subtest: the complete walking rectangle occupies the native floor rather than transparent canvas or side-wall panels
+ok 494 - the complete walking rectangle occupies the native floor rather than transparent canvas or side-wall panels
+  ---
+  duration_ms: 82.843417
+  type: 'test'
+  ...
+# Subtest: each separate native seller remains visible next to the service counter at human scale
+ok 495 - each separate native seller remains visible next to the service counter at human scale
+  ---
+  duration_ms: 146.4555
+  type: 'test'
+  ...
+# Subtest: native sellers have a small shared foot support that blocks crossing while the adjacent aisle stays open
+ok 496 - native sellers have a small shared foot support that blocks crossing while the adjacent aisle stays open
+  ---
+  duration_ms: 1.133667
+  type: 'test'
+  ...
+# Subtest: rear wall planes join native floor backs without the clothing wing-bounds gap
+ok 497 - rear wall planes join native floor backs without the clothing wing-bounds gap
+  ---
+  duration_ms: 23.20175
+  type: 'test'
+  ...
+# Subtest: each native hub arch column meets the curved floor instead of floating over a black band
+ok 498 - each native hub arch column meets the curved floor instead of floating over a black band
+  ---
+  duration_ms: 8.115792
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 320px, male hands, compact
+ok 499 - live phone content preserves all four supplied frame lines at 320px, male hands, compact
+  ---
+  duration_ms: 16.740792
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 320px, male hands, expanded
+ok 500 - live phone content preserves all four supplied frame lines at 320px, male hands, expanded
+  ---
+  duration_ms: 13.53025
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 390px, male hands, compact
+ok 501 - live phone content preserves all four supplied frame lines at 390px, male hands, compact
+  ---
+  duration_ms: 13.370916
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 390px, male hands, expanded
+ok 502 - live phone content preserves all four supplied frame lines at 390px, male hands, expanded
+  ---
+  duration_ms: 13.305459
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 320px, female hands, compact
+ok 503 - live phone content preserves all four supplied frame lines at 320px, female hands, compact
+  ---
+  duration_ms: 12.401208
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 320px, female hands, expanded
+ok 504 - live phone content preserves all four supplied frame lines at 320px, female hands, expanded
+  ---
+  duration_ms: 11.794709
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 390px, female hands, compact
+ok 505 - live phone content preserves all four supplied frame lines at 390px, female hands, compact
+  ---
+  duration_ms: 11.574625
+  type: 'test'
+  ...
+# Subtest: live phone content preserves all four supplied frame lines at 390px, female hands, expanded
+ok 506 - live phone content preserves all four supplied frame lines at 390px, female hands, expanded
+  ---
+  duration_ms: 13.267416
+  type: 'test'
+  ...
+# Subtest: the phone Home control is an accessible square glyph with no visible menu label
+ok 507 - the phone Home control is an accessible square glyph with no visible menu label
+  ---
+  duration_ms: 0.480583
+  type: 'test'
+  ...
+# Subtest: fallback rooms adapt real flat materials instead of repeating the perspective floor and baked light
+ok 508 - fallback rooms adapt real flat materials instead of repeating the perspective floor and baked light
+  ---
+  duration_ms: 2.358292
+  type: 'test'
+  ...
+# Subtest: fallback floors keep native flat grain at one world scale across room sizes
+ok 509 - fallback floors keep native flat grain at one world scale across room sizes
+  ---
+  duration_ms: 369.549625
+  type: 'test'
+  ...
+# Subtest: clothing wall sconces have readable native bodies and leave no obsolete floor obstacle
+ok 510 - clothing wall sconces have readable native bodies and leave no obsolete floor obstacle
+  ---
+  duration_ms: 0.321625
+  type: 'test'
+  ...
+# Subtest: all twelve flat native surface textures retain their original file and provenance
+ok 511 - all twelve flat native surface textures retain their original file and provenance
+  ---
+  duration_ms: 40.824541
+  type: 'test'
+  ...
+# Subtest: a clan room preloads the selected flat tiles instead of the perspective panels
+ok 512 - a clan room preloads the selected flat tiles instead of the perspective panels
+  ---
+  duration_ms: 0.804959
+  type: 'test'
+  ...
+# Subtest: native floor pixels repeat at a fixed world period without stretching when a room grows
+ok 513 - native floor pixels repeat at a fixed world period without stretching when a room grows
+  ---
+  duration_ms: 226.557583
+  type: 'test'
+  ...
+# Subtest: saved joystick side is applied at boot and the real setting persists a new side
+ok 514 - saved joystick side is applied at boot and the real setting persists a new side
+  ---
+  duration_ms: 2.843459
+  type: 'test'
+  ...
+# Subtest: opening Telebzi selects the current account hands and closing restores game controls
+ok 515 - opening Telebzi selects the current account hands and closing restores game controls
+  ---
+  duration_ms: 1.872709
+  type: 'test'
+  ...
+# Subtest: phone Home returns to apps and then closes without moving or changing the seated player
+ok 516 - phone Home returns to apps and then closes without moving or changing the seated player
+  ---
+  duration_ms: 1.480333
+  type: 'test'
+  ...
+# Subtest: the separate game menu opens settings without a phone pose, teleport or server call
+ok 517 - the separate game menu opens settings without a phone pose, teleport or server call
+  ---
+  duration_ms: 0.916375
+  type: 'test'
+  ...
+# Subtest: Escape can open the compact game menu and close inventory first without opening it underneath
+ok 518 - Escape can open the compact game menu and close inventory first without opening it underneath
+  ---
+  duration_ms: 0.61575
+  type: 'test'
+  ...
+# Subtest: approved phone has twelve distinct real routes and inventory stays separate
+ok 519 - approved phone has twelve distinct real routes and inventory stays separate
+  ---
+  duration_ms: 0.738458
+  type: 'test'
+  ...
+# Subtest: control side restores only valid choices and can persist without storage access
+ok 520 - control side restores only valid choices and can persist without storage access
+  ---
+  duration_ms: 0.185209
+  type: 'test'
+  ...
+# Subtest: phone presence leaves HUD intact, hides controls, and chooses the actual character hands
+ok 521 - phone presence leaves HUD intact, hides controls, and chooses the actual character hands
+  ---
+  duration_ms: 0.190167
+  type: 'test'
+  ...
+# Subtest: password reveal changes input type and accessibility state without changing bytes
+ok 522 - password reveal changes input type and accessibility state without changing bytes
+  ---
+  duration_ms: 0.542542
+  type: 'test'
+  ...
+# Subtest: source CSS hides only lower controls while phone is open and supports mirrored placement
+ok 523 - source CSS hides only lower controls while phone is open and supports mirrored placement
+  ---
+  duration_ms: 2.979916
+  type: 'test'
+  ...
+# Subtest: all 124 authored vehicle sides retain their model, colour and source provenance
+ok 524 - all 124 authored vehicle sides retain their model, colour and source provenance
+  ---
+  duration_ms: 2.124584
+  type: 'test'
+  ...
+# Subtest: catalogue character filtering preserves every location mascot and all isolated construction elements
+ok 525 - catalogue character filtering preserves every location mascot and all isolated construction elements
+  ---
+  duration_ms: 0.180584
+  type: 'test'
+  ...
+# Subtest: native water equipment follows the authored hand without moving or mirroring the actor
+ok 526 - native water equipment follows the authored hand without moving or mirroring the actor
+  ---
+  duration_ms: 1.268708
+  type: 'test'
+  ...
+# Subtest: an uncaught cast cannot show a fish; the successful catch is pocketed once
+ok 527 - an uncaught cast cannot show a fish; the successful catch is pocketed once
+  ---
+  duration_ms: 0.364208
+  type: 'test'
+  ...
+# Subtest: male actor-only frames use their measured hands without duplicating the embedded catch
+ok 528 - male actor-only frames use their measured hands without duplicating the embedded catch
+  ---
+  duration_ms: 0.576334
+  type: 'test'
+  ...
+# Subtest: only the three independent native equipment PNGs are decoded and drawn
+ok 529 - only the three independent native equipment PNGs are decoded and drawn
+  ---
+  duration_ms: 131.1625
+  type: 'test'
+  ...
+# Subtest: water family uses native environment layers without whole character or demonstration sheets
+ok 530 - water family uses native environment layers without whole character or demonstration sheets
+  ---
+  duration_ms: 0.755417
+  type: 'test'
+  ...
+# Subtest: boat body and its occluding front edge keep one fixed seat anchor; only four wake frames advance
+ok 531 - boat body and its occluding front edge keep one fixed seat anchor; only four wake frames advance
+  ---
+  duration_ms: 0.606042
+  type: 'test'
+  ...
+# Subtest: the retained native pier is grounded at its v18 boarding and dock positions without changing saved geometry
+ok 532 - the retained native pier is grounded at its v18 boarding and dock positions without changing saved geometry
+  ---
+  duration_ms: 0.170375
+  type: 'test'
+  ...
+# Subtest: retained native shore accents are deterministic and leave their v18 paths and boarding approaches clear
+ok 533 - retained native shore accents are deterministic and leave their v18 paths and boarding approaches clear
+  ---
+  duration_ms: 33.398417
+  type: 'test'
+  ...
+# Subtest: the exact city never repaints its native lake, piers, shore or stationary baked boats
+ok 534 - the exact city never repaints its native lake, piers, shore or stationary baked boats
+  ---
+  duration_ms: 275.28675
+  type: 'test'
+  ...
+# Subtest: an actual occupied or moving boat still paints its native hull above the exact city scene
+ok 535 - an actual occupied or moving boat still paints its native hull above the exact city scene
+  ---
+  duration_ms: 11.445625
+  type: 'test'
+  ...
+# Subtest: real PNG water clips to the authoritative rotated ellipse; source boat passes compose into one native hull
+ok 536 - real PNG water clips to the authoritative rotated ellipse; source boat passes compose into one native hull
+  ---
+  duration_ms: 13.355584
+  type: 'test'
+  ...
+# Subtest: authored concave water outline and island holes use the same native image clip
+ok 537 - authored concave water outline and island holes use the same native image clip
+  ---
+  duration_ms: 0.959042
+  type: 'test'
+  ...
+# Subtest: native wave art remains unmodified; exactly four recolored frame canvases are cached
+ok 538 - native wave art remains unmodified; exactly four recolored frame canvases are cached
+  ---
+  duration_ms: 14.346166
+  type: 'test'
+  ...
+# Subtest: shore objects follow authored bay and island contours rather than obsolete ellipse radii
+ok 539 - shore objects follow authored bay and island contours rather than obsolete ellipse radii
+  ---
+  duration_ms: 1.182208
+  type: 'test'
+  ...
+# Subtest: native stone rim and shore plants leave authored island bridge approaches open
+ok 540 - native stone rim and shore plants leave authored island bridge approaches open
+  ---
+  duration_ms: 0.636916
+  type: 'test'
+  ...
+# Subtest: live modular city actually draws independent piers and empty boats
+ok 541 - live modular city actually draws independent piers and empty boats
+  ---
+  duration_ms: 35.603417
+  type: 'test'
+  ...
+# Subtest: railway arrival is a short distinct walk from the town rather than a wide empty gap
+ok 542 - railway arrival is a short distinct walk from the town rather than a wide empty gap
+  ---
+  duration_ms: 0.926625
+  type: 'test'
+  ...
+# Subtest: newcomers, map travel and the railway interior share the exact native doorway
+ok 543 - newcomers, map travel and the railway interior share the exact native doorway
+  ---
+  duration_ms: 5.599708
+  type: 'test'
+  ...
+# Subtest: the authored city has measured lighting rows in all pedestrian districts
+ok 544 - the authored city has measured lighting rows in all pedestrian districts
+  ---
+  duration_ms: 0.5385
+  type: 'test'
+  ...
+# Subtest: full source contours leave every authored route and all 19 generated entrances open
+ok 545 - full source contours leave every authored route and all 19 generated entrances open
+  ---
+  duration_ms: 149.617583
+  type: 'test'
+  ...
+# Subtest: new props keep clear of every house, tree, bench, planting, existing light and each other
+ok 546 - new props keep clear of every house, tree, bench, planting, existing light and each other
+  ---
+  duration_ms: 4.125834
+  type: 'test'
+  ...
+# Subtest: street details are grounded beside their declared routes and outside the water
+ok 547 - street details are grounded beside their declared routes and outside the water
+  ---
+  duration_ms: 6.369791
+  type: 'test'
+  ...
+# Subtest: new waste bins participate in the existing disposal action
+ok 548 - new waste bins participate in the existing disposal action
+  ---
+  duration_ms: 0.231833
+  type: 'test'
+  ...
+# Subtest: crossing landings and their tactile pads stay unobscured
+ok 549 - crossing landings and their tactile pads stay unobscured
+  ---
+  duration_ms: 0.29675
+  type: 'test'
+  ...
+# Subtest: each street sprite fits its declared complete bounds with stable pixels and ground depth
+ok 550 - each street sprite fits its declared complete bounds with stable pixels and ground depth
+  ---
+  duration_ms: 12.82575
+  type: 'test'
+  ...
+# Subtest: supplemental props use the authored visible bounds and keep physical footprint separate from roofs and jets
+ok 551 - supplemental props use the authored visible bounds and keep physical footprint separate from roofs and jets
+  ---
+  duration_ms: 1.276958
+  type: 'test'
+  ...
+# Subtest: rotation preserves the ground anchor and explicit physical rect while invalid map entries cannot select other files
+ok 552 - rotation preserves the ground anchor and explicit physical rect while invalid map entries cannot select other files
+  ---
+  duration_ms: 0.166042
+  type: 'test'
+  ...
+# Subtest: rail layouts cover every finite nonzero strip segment at the requested width and stay on the background layer
+ok 553 - rail layouts cover every finite nonzero strip segment at the requested width and stay on the background layer
+  ---
+  duration_ms: 1.011042
+  type: 'test'
+  ...
+# Subtest: diagonal coaches follow the closest rail tangent without tilting their upright walls
+ok 554 - diagonal coaches follow the closest rail tangent without tilting their upright walls
+  ---
+  duration_ms: 0.359792
+  type: 'test'
+  ...
+# Subtest: the independent loader decodes only six individual PNGs, deduplicates parallel preloads and reports unavailable files
+ok 555 - the independent loader decodes only six individual PNGs, deduplicates parallel preloads and reports unavailable files
+  ---
+  duration_ms: 10.454917
+  type: 'test'
+  ...
+# Subtest: canvas uses the exact RGBA source crop and repeated rail bodies have no transparent seams
+ok 556 - canvas uses the exact RGBA source crop and repeated rail bodies have no transparent seams
+  ---
+  duration_ms: 19.30525
+  type: 'test'
+  ...
+# Subtest: gait follows distance, including slow joystick movement and turns, instead of the page clock
+ok 557 - gait follows distance, including slow joystick movement and turns, instead of the page clock
+  ---
+  duration_ms: 0.57025
+  type: 'test'
+  ...
+# Subtest: stationary, phone, seats, scene transfers and teleports cannot continue a walking cycle
+ok 558 - stationary, phone, seats, scene transfers and teleports cannot continue a walking cycle
+  ---
+  duration_ms: 0.135625
+  type: 'test'
+  ...
+# Subtest: all eight contacts cycle without accumulating distance and results are frame-rate independent
+ok 559 - all eight contacts cycle without accumulating distance and results are frame-rate independent
+  ---
+  duration_ms: 0.801958
+  type: 'test'
+  ...
+# Subtest: concave shore and dry island replace only the optional ellipse geometry
+ok 560 - concave shore and dry island replace only the optional ellipse geometry
+  ---
+  duration_ms: 1.280916
+  type: 'test'
+  ...
+# Subtest: pedestrian segments respect concave land and dry island rather than bounding boxes
+ok 561 - pedestrian segments respect concave land and dry island rather than bounding boxes
+  ---
+  duration_ms: 0.438209
+  type: 'test'
+  ...
+# Subtest: boats stop at the first bank or island even when the far endpoint is water
+ok 562 - boats stop at the first bank or island even when the far endpoint is water
+  ---
+  duration_ms: 2.466333
+  type: 'test'
+  ...
+# Subtest: nearest shore uses the actual concave edge or nearest dry island with matching padding
+ok 563 - nearest shore uses the actual concave edge or nearest dry island with matching padding
+  ---
+  duration_ms: 0.5525
+  type: 'test'
+  ...
+# Subtest: shared path exposes authored absolute contour and cuts every dry island from rendering
+ok 564 - shared path exposes authored absolute contour and cuts every dry island from rendering
+  ---
+  duration_ms: 0.69225
+  type: 'test'
+  ...
+# Subtest: rotated legacy ellipse bounds enclose the exact visible extremities
+ok 565 - rotated legacy ellipse bounds enclose the exact visible extremities
+  ---
+  duration_ms: 0.099375
+  type: 'test'
+  ...
+# Subtest: only authored pedestrian bridge strips allow walking across water to a dry island
+ok 566 - only authored pedestrian bridge strips allow walking across water to a dry island
+  ---
+  duration_ms: 0.306
+  type: 'test'
+  ...
+# Subtest: rotated water geometry follows the rendered ellipse, not its rectangular bounds
+ok 567 - rotated water geometry follows the rendered ellipse, not its rectangular bounds
+  ---
+  duration_ms: 0.681834
+  type: 'test'
+  ...
+# Subtest: a dry foot centre cannot leave its complete circle over the actual lake bank
+ok 568 - a dry foot centre cannot leave its complete circle over the actual lake bank
+  ---
+  duration_ms: 20.91575
+  type: 'test'
+  ...
+# Subtest: bank recovery avoids actual nearby tree supports as well as the water
+ok 569 - bank recovery avoids actual nearby tree supports as well as the water
+  ---
+  duration_ms: 5.7335
+  type: 'test'
+  ...
+# Subtest: a bridge landing supports the union of shore and bridge without rejecting a legal straddling circle
+ok 570 - a bridge landing supports the union of shore and bridge without rejecting a legal straddling circle
+  ---
+  duration_ms: 0.6925
+  type: 'test'
+  ...
+# Subtest: a wet region wholly inside a foot circle or swept path is still detected
+ok 571 - a wet region wholly inside a foot circle or swept path is still detected
+  ---
+  duration_ms: 0.169666
+  type: 'test'
+  ...
+# Subtest: all four native lake walkways retain a complete dry circle along their actual paths
+ok 572 - all four native lake walkways retain a complete dry circle along their actual paths
+  ---
+  duration_ms: 13.045208
+  type: 'test'
+  ...
+# Subtest: rotated elliptical banks use the true circular clearance along every normal
+ok 573 - rotated elliptical banks use the true circular clearance along every normal
+  ---
+  duration_ms: 2.341916
+  type: 'test'
+  ...
+# Subtest: a whole crossing segment is blocked even when both endpoints are on dry land
+ok 574 - a whole crossing segment is blocked even when both endpoints are on dry land
+  ---
+  duration_ms: 6.357083
+  type: 'test'
+  ...
+# Subtest: a pedestrian walks along the bank while a boat remains within navigable water
+ok 575 - a pedestrian walks along the bank while a boat remains within navigable water
+  ---
+  duration_ms: 1.727834
+  type: 'test'
+  ...
+# Subtest: a boat restored in the rounding margin stays near its bank and sends a safe integer position
+ok 576 - a boat restored in the rounding margin stays near its bank and sends a safe integer position
+  ---
+  duration_ms: 0.225625
+  type: 'test'
+  ...
+# Subtest: recovering an old pedestrian water position uses a nearby bank or bridge rather than the railway
+ok 577 - recovering an old pedestrian water position uses a nearby bank or bridge rather than the railway
+  ---
+  duration_ms: 5.09625
+  type: 'test'
+  ...
+# Subtest: three boats have real dry boarding approaches and navigable water docks
+ok 578 - three boats have real dry boarding approaches and navigable water docks
+  ---
+  duration_ms: 0.394208
+  type: 'test'
+  ...
+# Subtest: a city pet following a player on the bank stays on dry land
+ok 579 - a city pet following a player on the bank stays on dry land
+  ---
+  duration_ms: 0.486292
+  type: 'test'
+  ...
+# Subtest: pet gestures follow authoritative timestamps and expire without changing seated or phone state
+ok 580 - pet gestures follow authoritative timestamps and expire without changing seated or phone state
+  ---
+  duration_ms: 0.109834
+  type: 'test'
+  ...
+# Subtest: reduced motion holds boat planes still while keeping an active pet reaction visible
+ok 581 - reduced motion holds boat planes still while keeping an active pet reaction visible
+  ---
+  duration_ms: 0.6995
+  type: 'test'
+  ...
+# Subtest: short landscape uses the available viewport height without extending below screen
+ok 582 - short landscape uses the available viewport height without extending below screen
+  ---
+  duration_ms: 0.4555
+  type: 'test'
+  ...
+# Subtest: a room entrance stays above action buttons even when the floor is shorter than the viewport
+ok 583 - a room entrance stays above action buttons even when the floor is shorter than the viewport
+  ---
+  duration_ms: 0.144084
+  type: 'test'
+  ...
+# Subtest: hero remains above touch controls and device pixel snapping stabilizes every frame
+ok 584 - hero remains above touch controls and device pixel snapping stabilizes every frame
+  ---
+  duration_ms: 0.137459
+  type: 'test'
+  ...
+# Subtest: expanded city clamps finite positions and relocates building interiors
+ok 585 - expanded city clamps finite positions and relocates building interiors
+  ---
+  duration_ms: 10.821958
+  type: 'test'
+  ...
+# Subtest: all working city doors activate, central results board stays accessible
+ok 586 - all working city doors activate, central results board stays accessible
+  ---
+  duration_ms: 0.3155
+  type: 'test'
+  ...
+# Subtest: axis-separated movement slides along walls and prevents tunnelling
+ok 587 - axis-separated movement slides along walls and prevents tunnelling
+  ---
+  duration_ms: 1.895125
+  type: 'test'
+  ...
+# Subtest: district houses use shared bounds, doors and collision without fabricated clans
+ok 588 - district houses use shared bounds, doors and collision without fabricated clans
+  ---
+  duration_ms: 1.668625
+  type: 'test'
+  ...
+# Subtest: published map exactly matches client geometry
+ok 589 - published map exactly matches client geometry
+  ---
+  duration_ms: 4.151
+  type: 'test'
+  ...
+# Subtest: base rejects overlaps, unsupported furniture, bounds and full rooms
+ok 590 - base rejects overlaps, unsupported furniture, bounds and full rooms
+  ---
+  duration_ms: 0.321
+  type: 'test'
+  ...
+# Subtest: doors, smoke zone and every seat share interaction geometry
+ok 591 - doors, smoke zone and every seat share interaction geometry
+  ---
+  duration_ms: 0.807917
+  type: 'test'
+  ...
+# Subtest: physical keys and Cyrillic shortcuts resolve to the same actions
+ok 592 - physical keys and Cyrillic shortcuts resolve to the same actions
+  ---
+  duration_ms: 0.100458
+  type: 'test'
+  ...
+# Subtest: travel has legal unified destinations and own base requires its actual clan building
+ok 593 - travel has legal unified destinations and own base requires its actual clan building
+  ---
+  duration_ms: 1.091875
+  type: 'test'
+  ...
+# Subtest: park travel leaves the dog visible beside the player and immediately reachable for petting
+ok 594 - park travel leaves the dog visible beside the player and immediately reachable for petting
+  ---
+  duration_ms: 0.265333
+  type: 'test'
+  ...
+# Subtest: movement publication retains the actual turn rather than replacing it with an endpoint chord
+ok 595 - movement publication retains the actual turn rather than replacing it with an endpoint chord
+  ---
+  duration_ms: 152.588667
+  type: 'test'
+  ...
+# Subtest: a movement ack preserves later frames and the next publication starts after the acknowledged prefix
+ok 596 - a movement ack preserves later frames and the next publication starts after the acknowledged prefix
+  ---
+  duration_ms: 108.465084
+  type: 'test'
+  ...
+# Subtest: peer animation snaps when its endpoint chord cuts the foot radius around an obstacle
+ok 597 - peer animation snaps when its endpoint chord cuts the foot radius around an obstacle
+  ---
+  duration_ms: 17.415
+  type: 'test'
+  ...
+# Subtest: a neighbouring boat snaps when its sampled chord would cross the actual dry island
+ok 598 - a neighbouring boat snaps when its sampled chord would cross the actual dry island
+  ---
+  duration_ms: 116.820666
+  type: 'test'
+  ...
+# Subtest: long pending straight walks compact only collinear frames before opening an interaction
+ok 599 - long pending straight walks compact only collinear frames before opening an interaction
+  ---
+  duration_ms: 423.938625
+  type: 'test'
+  ...
+# Subtest: a clipped authoritative step corrects the player and clears the unreachable pending tail
+ok 600 - a clipped authoritative step corrects the player and clears the unreachable pending tail
+  ---
+  duration_ms: 96.436583
+  type: 'test'
+  ...
+# Subtest: all public seated snapshots retain their assigned contact while the phone opens and closes
+ok 601 - all public seated snapshots retain their assigned contact while the phone opens and closes
+  ---
+  duration_ms: 478.596792
+  type: 'test'
+  ...
+# Subtest: losing server control stops city writes and phone cleanup without automatic recovery
+ok 602 - losing server control stops city writes and phone cleanup without automatic recovery
+  ---
+  duration_ms: 15.768667
+  type: 'test'
+  ...
+# Subtest: selecting and repainting a furnishing preserves its wood, loft or tech source theme
+ok 603 - selecting and repainting a furnishing preserves its wood, loft or tech source theme
+  ---
+  duration_ms: 351.452208
+  type: 'test'
+  ...
+# Subtest: base editor rotates the selected furnishing four ways using touch and R and saves the final facing
+ok 604 - base editor rotates the selected furnishing four ways using touch and R and saves the final facing
+  ---
+  duration_ms: 89.167583
+  type: 'test'
+  ...
+# Subtest: blocked furniture turn keeps the last valid direction and a guest cannot rotate via hidden controls
+ok 605 - blocked furniture turn keeps the last valid direction and a guest cannot rotate via hidden controls
+  ---
+  duration_ms: 83.359917
+  type: 'test'
+  ...
+# Subtest: opening the separate bag preserves legal fractional feet beside native ground supports
+ok 606 - opening the separate bag preserves legal fractional feet beside native ground supports
+  ---
+  duration_ms: 10.088667
+  type: 'test'
+  ...
+# Subtest: successful action is visible immediately and an older in-flight world response cannot undo it
+ok 607 - successful action is visible immediately and an older in-flight world response cannot undo it
+  ---
+  duration_ms: 92.368542
+  type: 'test'
+  ...
+# Subtest: food gesture preserves a real seat and emits its sound once per authoritative event
+ok 608 - food gesture preserves a real seat and emits its sound once per authoritative event
+  ---
+  duration_ms: 97.84
+  type: 'test'
+  ...
+# Subtest: expired action resumes movement without relocating the player or repeating the sound
+ok 609 - expired action resumes movement without relocating the player or repeating the sound
+  ---
+  duration_ms: 88.648916
+  type: 'test'
+  ...
+# Subtest: a neighbor action arriving with a position sample stops interpolation at that action point
+ok 610 - a neighbor action arriving with a position sample stops interpolation at that action point
+  ---
+  duration_ms: 95.10375
+  type: 'test'
+  ...
+# Subtest: boarding keeps an authoritative water position, uses ordinary movement and phone never releases the boat
+ok 611 - boarding keeps an authoritative water position, uses ordinary movement and phone never releases the boat
+  ---
+  duration_ms: 97.062458
+  type: 'test'
+  ...
+# Subtest: boat fishing passes its authorized spot and travel requires returning to the dock
+ok 612 - boat fishing passes its authorized spot and travel requires returning to the dock
+  ---
+  duration_ms: 22.650666
+  type: 'test'
+  ...
+# Subtest: boarding rejection stays on shore without success audio and a dock exit restores its dry approach
+ok 613 - boarding rejection stays on shore without success audio and a dock exit restores its dry approach
+  ---
+  duration_ms: 10.54775
+  type: 'test'
+  ...
+# Subtest: pet reactions sound once per server effect while own-pet and street-cat actions remain distinct
+ok 614 - pet reactions sound once per server effect while own-pet and street-cat actions remain distinct
+  ---
+  duration_ms: 13.509458
+  type: 'test'
+  ...
+# Subtest: an authoritative boat release reconciles immediately to dry boarding without a station jump
+ok 615 - an authoritative boat release reconciles immediately to dry boarding without a station jump
+  ---
+  duration_ms: 8.442958
+  type: 'test'
+  ...
+# Subtest: an own pet can be patted with the action button inside a public room and a clan base
+ok 616 - an own pet can be patted with the action button inside a public room and a clan base
+  ---
+  duration_ms: 19.938
+  type: 'test'
+  ...
+# Subtest: an owned pet does not replace the base exit action
+ok 617 - an owned pet does not replace the base exit action
+  ---
+  duration_ms: 9.283291
+  type: 'test'
+  ...
+# Subtest: tapping an own pet preserves seated phone state and a live pet gesture prevents walking
+ok 618 - tapping an own pet preserves seated phone state and a live pet gesture prevents walking
+  ---
+  duration_ms: 114.830167
+  type: 'test'
+  ...
+# Subtest: pet notification audio is local to the current room and nearby players
+ok 619 - pet notification audio is local to the current room and nearby players
+  ---
+  duration_ms: 9.11275
+  type: 'test'
+  ...
+# Subtest: presence refresh runs within one second so peers can observe a two-second pet reaction
+ok 620 - presence refresh runs within one second so peers can observe a two-second pet reaction
+  ---
+  duration_ms: 9.951666
+  type: 'test'
+  ...
+# Subtest: a live pet gesture pauses an idle player until it expires without changing the stored pose
+ok 621 - a live pet gesture pauses an idle player until it expires without changing the stored pose
+  ---
+  duration_ms: 90.545042
+  type: 'test'
+  ...
+# Subtest: empty clan plots open construction only after flushing the displayed approach position
+ok 622 - empty clan plots open construction only after flushing the displayed approach position
+  ---
+  duration_ms: 9.039958
+  type: 'test'
+  ...
+# Subtest: door audio fires once after authoritative entry and never for a rejected door
+ok 623 - door audio fires once after authoritative entry and never for a rejected door
+  ---
+  duration_ms: 10.529834
+  type: 'test'
+  ...
+# Subtest: base interior controls do not offer an exterior rebuild after construction
+ok 624 - base interior controls do not offer an exterior rebuild after construction
+  ---
+  duration_ms: 8.591292
+  type: 'test'
+  ...
+# Subtest: sit and stand audio follows accepted state and a phone overlay is silent to the world
+ok 625 - sit and stand audio follows accepted state and a phone overlay is silent to the world
+  ---
+  duration_ms: 12.614291
+  type: 'test'
+  ...
+# Subtest: footsteps require actual movement and stop when a phone is open
+ok 626 - footsteps require actual movement and stop when a phone is open
+  ---
+  duration_ms: 106.890416
+  type: 'test'
+  ...
+# Subtest: phone modal clears held walking and closing it requires fresh input
+ok 627 - phone modal clears held walking and closing it requires fresh input
+  ---
+  duration_ms: 95.877667
+  type: 'test'
+  ...
+# Subtest: authoritative arena snapshot redirects once and stops city position writes
+ok 628 - authoritative arena snapshot redirects once and stops city position writes
+  ---
+  duration_ms: 91.541917
+  type: 'test'
+  ...
+# Subtest: district navigation uses real scene moves and base returns to its house
+ok 629 - district navigation uses real scene moves and base returns to its house
+  ---
+  duration_ms: 10.473792
+  type: 'test'
+  ...
+# Subtest: settings remain mount scoped and background scenes release every listener
+ok 630 - settings remain mount scoped and background scenes release every listener
+  ---
+  duration_ms: 90.338292
+  type: 'test'
+  ...
+# Subtest: scene transition during refresh still writes district after stale response
+ok 631 - scene transition during refresh still writes district after stale response
+  ---
+  duration_ms: 9.4005
+  type: 'test'
+  ...
+# Subtest: initial unified quarter position survives reload without an unsolicited move
+ok 632 - initial unified quarter position survives reload without an unsolicited move
+  ---
+  duration_ms: 8.065792
+  type: 'test'
+  ...
+# Subtest: button and physical E on Russian layout both enter the nearest public building
+ok 633 - button and physical E on Russian layout both enter the nearest public building
+  ---
+  duration_ms: 97.411334
+  type: 'test'
+  ...
+# Subtest: phone and seating write server activities while movement releases a seated pose
+ok 634 - phone and seating write server activities while movement releases a seated pose
+  ---
+  duration_ms: 95.042375
+  type: 'test'
+  ...
+# Subtest: card takeover follows authority once and prevents fast travel
+ok 635 - card takeover follows authority once and prevents fast travel
+  ---
+  duration_ms: 19.8425
+  type: 'test'
+  ...
+# Subtest: canvas door taps enter the same public room as the physical action key
+ok 636 - canvas door taps enter the same public room as the physical action key
+  ---
+  duration_ms: 98.538792
+  type: 'test'
+  ...
+# Subtest: a denied fast travel restores the authoritative scene and position
+ok 637 - a denied fast travel restores the authoritative scene and position
+  ---
+  duration_ms: 9.170958
+  type: 'test'
+  ...
+# Subtest: closing the phone during an in-flight opening sends the final closed state
+ok 638 - closing the phone during an in-flight opening sends the final closed state
+  ---
+  duration_ms: 10.784042
+  type: 'test'
+  ...
+# Subtest: leader base changes submit interior palettes without modifying the built exterior
+ok 639 - leader base changes submit interior palettes without modifying the built exterior
+  ---
+  duration_ms: 81.128792
+  type: 'test'
+  ...
+# Subtest: premium placement requires an owned purchase even if the control is changed manually
+ok 640 - premium placement requires an owned purchase even if the control is changed manually
+  ---
+  duration_ms: 93.212625
+  type: 'test'
+  ...
+# Subtest: closing phone survives immediate scene teardown and runs after an opening in flight
+ok 641 - closing phone survives immediate scene teardown and runs after an opening in flight
+  ---
+  duration_ms: 9.481292
+  type: 'test'
+  ...
+# Subtest: an opening queued by a destroyed mount cannot reopen the server phone pose
+ok 642 - an opening queued by a destroyed mount cannot reopen the server phone pose
+  ---
+  duration_ms: 8.7925
+  type: 'test'
+  ...
+# Subtest: phone pose requests stay ordered across a replaced world mount
+ok 643 - phone pose requests stay ordered across a replaced world mount
+  ---
+  duration_ms: 19.1985
+  type: 'test'
+  ...
+# Subtest: public city door enters a physical room without opening the phone feature
+ok 644 - public city door enters a physical room without opening the phone feature
+  ---
+  duration_ms: 9.859958
+  type: 'test'
+  ...
+# Subtest: interior reload retains authoritative room and sends room identity on walking
+ok 645 - interior reload retains authoritative room and sends room identity on walking
+  ---
+  duration_ms: 9.26375
+  type: 'test'
+  ...
+# Subtest: interior counter invokes its feature while its seat and exit use authoritative endpoints
+ok 646 - interior counter invokes its feature while its seat and exit use authoritative endpoints
+  ---
+  duration_ms: 11.184542
+  type: 'test'
+  ...
+# Subtest: camera and zoom align to physical pixels to keep small labels and sprites clear
+ok 647 - camera and zoom align to physical pixels to keep small labels and sprites clear
+  ---
+  duration_ms: 89.562542
+  type: 'test'
+  ...
+# Subtest: same-room real peers are rendered and explicit foreign-room peers are excluded
+ok 648 - same-room real peers are rendered and explicit foreign-room peers are excluded
+  ---
+  duration_ms: 10.486583
+  type: 'test'
+  ...
+# Subtest: door entry waits for an in-flight city move and flushes the displayed position
+ok 649 - door entry waits for an in-flight city move and flushes the displayed position
+  ---
+  duration_ms: 93.735584
+  type: 'test'
+  ...
+# Subtest: a pending room entry cannot queue an idle city write behind the transition
+ok 650 - a pending room entry cannot queue an idle city write behind the transition
+  ---
+  duration_ms: 92.479708
+  type: 'test'
+  ...
+# Subtest: the archive board remains a working results action outside the gallery door
+ok 651 - the archive board remains a working results action outside the gallery door
+  ---
+  duration_ms: 8.614167
+  type: 'test'
+  ...
+# Subtest: canvas counter taps use the same allowed approach radius as E and the action button
+ok 652 - canvas counter taps use the same allowed approach radius as E and the action button
+  ---
+  duration_ms: 9.848875
+  type: 'test'
+  ...
+# Subtest: a pending sit claim cannot be cancelled by a queued idle position write
+ok 653 - a pending sit claim cannot be cancelled by a queued idle position write
+  ---
+  duration_ms: 9.900333
+  type: 'test'
+  ...
+# Subtest: an accepted guest base refreshes host furniture and revocation returns to authority immediately
+ok 654 - an accepted guest base refreshes host furniture and revocation returns to authority immediately
+  ---
+  duration_ms: 11.767833
+  type: 'test'
+  ...
+# Subtest: a phone opened while sitting preserves the real seat and settings cannot move it
+ok 655 - a phone opened while sitting preserves the real seat and settings cannot move it
+  ---
+  duration_ms: 91.408458
+  type: 'test'
+  ...
+# Subtest: two-slot benches choose the nearest free real seat instead of an occupied centre
+ok 656 - two-slot benches choose the nearest free real seat instead of an occupied centre
+  ---
+  duration_ms: 9.374
+  type: 'test'
+  ...
+# Subtest: park fishing, dog, litter and bin actions flush position and pass authoritative IDs
+ok 657 - park fishing, dog, litter and bin actions flush position and pass authoritative IDs
+  ---
+  duration_ms: 77.028875
+  type: 'test'
+  ...
+# Subtest: the first animation frame survives a pending initial world snapshot and resumes when loaded
+ok 658 - the first animation frame survives a pending initial world snapshot and resumes when loaded
+  ---
+  duration_ms: 162.487458
+  type: 'test'
+  ...
+# Subtest: a player pushing against a solid keeps grounded idle feet instead of walking in place
+ok 659 - a player pushing against a solid keeps grounded idle feet instead of walking in place
+  ---
+  duration_ms: 97.051916
+  type: 'test'
+  ...
+# Subtest: one hundred same-scene peers preserve online presence while off-camera sprites are culled
+ok 660 - one hundred same-scene peers preserve online presence while off-camera sprites are culled
+  ---
+  duration_ms: 84.393208
+  type: 'test'
+  ...
+# Subtest: remote snapshot movement turns and animates a peer, then settles at its server position
+ok 661 - remote snapshot movement turns and animates a peer, then settles at its server position
+  ---
+  duration_ms: 91.283167
+  type: 'test'
+  ...
+# Subtest: peer motion retargets from the displayed position and seats or phone overlays snap to authority
+ok 662 - peer motion retargets from the displayed position and seats or phone overlays snap to authority
+  ---
+  duration_ms: 22.07125
+  type: 'test'
+  ...
+# Subtest: peer interpolation never walks across an interior solid or blends a room transfer
+ok 663 - peer interpolation never walks across an interior solid or blends a room transfer
+  ---
+  duration_ms: 22.838208
+  type: 'test'
+  ...
+# Subtest: canvas follows changes to reduced motion and removes its preference listener on teardown
+ok 664 - canvas follows changes to reduced motion and removes its preference listener on teardown
+  ---
+  duration_ms: 92.148667
+  type: 'test'
+  ...
+# Subtest: a world response started before a purchase cannot roll the wallet HUD back
+ok 665 - a world response started before a purchase cannot roll the wallet HUD back
+  ---
+  duration_ms: 9.893333
+  type: 'test'
+  ...
+# Subtest: opt-in world diagnostics publish observed frame timing in DOM at most once a second
+ok 666 - opt-in world diagnostics publish observed frame timing in DOM at most once a second
+  ---
+  duration_ms: 208.117625
+  type: 'test'
+  ...
+# Subtest: a clan leader enters a playable base with a closed editor and canvas taps claim real seats
+ok 667 - a clan leader enters a playable base with a closed editor and canvas taps claim real seats
+  ---
+  duration_ms: 81.053584
+  type: 'test'
+  ...
+# Subtest: editor toggling preserves unsaved base paint and role loss closes it without submitting
+ok 668 - editor toggling preserves unsaved base paint and role loss closes it without submitting
+  ---
+  duration_ms: 8.60025
+  type: 'test'
+  ...
+# Subtest: fractional mobile canvas height maps sofa center and foot taps to the real legacy seat
+ok 669 - fractional mobile canvas height maps sofa center and foot taps to the real legacy seat
+  ---
+  duration_ms: 76.955375
+  type: 'test'
+  ...
+# Subtest: one second of remote walking is not compressed into a quarter-second sprint
+ok 670 - one second of remote walking is not compressed into a quarter-second sprint
+  ---
+  duration_ms: 102.855709
+  type: 'test'
+  ...
+# Subtest: inventory has its own button and physical keyboard shortcut without moving the player
+ok 671 - inventory has its own button and physical keyboard shortcut without moving the player
+  ---
+  duration_ms: 8.767667
+  type: 'test'
+  ...
+# Subtest: contextual hand appears by an actionable object and hides again in free city space
+ok 672 - contextual hand appears by an actionable object and hides again in free city space
+  ---
+  duration_ms: 103.827458
+  type: 'test'
+  ...
+# Subtest: contextual hand is available in a public room and a clan base, and hidden while controls are paused
+ok 673 - contextual hand is available in a public room and a clan base, and hidden while controls are paused
+  ---
+  duration_ms: 101.66475
+  type: 'test'
+  ...
+# Subtest: an occupied seat does not display a hand that would fail when pressed
+ok 674 - an occupied seat does not display a hand that would fail when pressed
+  ---
+  duration_ms: 86.954625
+  type: 'test'
+  ...
+# Subtest: objects occlude a player behind them and yield to a player in front
+ok 675 - objects occlude a player behind them and yield to a player in front
+  ---
+  duration_ms: 0.967209
+  type: 'test'
+  ...
+# Subtest: public room collision follows shared solid geometry and prevents tunnelling
+ok 676 - public room collision follows shared solid geometry and prevents tunnelling
+  ---
+  duration_ms: 0.41475
+  type: 'test'
+  ...
+# Subtest: public room furniture is independently painted above a modular floor
+ok 677 - public room furniture is independently painted above a modular floor
+  ---
+  duration_ms: 233.625
+  type: 'test'
+  ...
+# Subtest: terrace has a usable door while city collision footprints remain unchanged
+ok 678 - terrace has a usable door while city collision footprints remain unchanged
+  ---
+  duration_ms: 0.434292
+  type: 'test'
+  ...
+# Subtest: room mirrors and card tables occlude actors at their physical front edge
+ok 679 - room mirrors and card tables occlude actors at their physical front edge
+  ---
+  duration_ms: 0.368542
+  type: 'test'
+  ...
+# Subtest: social tables remain separate depth objects rather than a room-sized foreground cache
+ok 680 - social tables remain separate depth objects rather than a room-sized foreground cache
+  ---
+  duration_ms: 0.221708
+  type: 'test'
+  ...
+# Subtest: all seated players draw in front of their actual sofa or chair
+ok 681 - all seated players draw in front of their actual sofa or chair
+  ---
+  duration_ms: 0.547041
+  type: 'test'
+  ...
+# Subtest: modular city has separate drawable objects and no whole-map foreground patches
+ok 682 - modular city has separate drawable objects and no whole-map foreground patches
+  ---
+  duration_ms: 7.075416
+  type: 'test'
+  ...
+# Subtest: the street cat and its usable approach remain outside foreground tree drawing bounds
+ok 683 - the street cat and its usable approach remain outside foreground tree drawing bounds
+  ---
+  duration_ms: 15.073291
+  type: 'test'
+  ...
+# Subtest: modular world retains the source composition and a traversable pedestrian arrival
+ok 684 - modular world retains the source composition and a traversable pedestrian arrival
+  ---
+  duration_ms: 38.328459
+  type: 'test'
+  ...
+# Subtest: every outdoor bench has two real distinct seats and no tree covers a road or door
+ok 685 - every outdoor bench has two real distinct seats and no tree covers a road or door
+  ---
+  duration_ms: 37.874125
+  type: 'test'
+  ...
+# Subtest: all modular public rooms use shared doors, real seat slots and feature counters
+ok 686 - all modular public rooms use shared doors, real seat slots and feature counters
+  ---
+  duration_ms: 6.6415
+  type: 'test'
+  ...
+# Subtest: shared furniture declares footprints, rotations and genuine sitting offsets
+ok 687 - shared furniture declares footprints, rotations and genuine sitting offsets
+  ---
+  duration_ms: 0.650375
+  type: 'test'
+  ...
+# Subtest: day and night preview share a twenty-minute periodic cycle
+ok 688 - day and night preview share a twenty-minute periodic cycle
+  ---
+  duration_ms: 0.164416
+  type: 'test'
+  ...
+# Subtest: modular ground keeps native resolution in a bounded mobile cache
+ok 689 - modular ground keeps native resolution in a bounded mobile cache
+  ---
+  duration_ms: 3702.480541
+  type: 'test'
+  ...
+# Subtest: new base furniture placement respects its full footprint while old compact saves remain valid
+ok 690 - new base furniture placement respects its full footprint while old compact saves remain valid
+  ---
+  duration_ms: 0.320833
+  type: 'test'
+  ...
+# Subtest: solid placement accepts rugs underneath furniture and requires rotation on expanded types
+ok 691 - solid placement accepts rugs underneath furniture and requires rotation on expanded types
+  ---
+  duration_ms: 0.160917
+  type: 'test'
+  ...
+# Subtest: base movement obeys furniture footprints and can leave a real seated position
+ok 692 - base movement obeys furniture footprints and can leave a real seated position
+  ---
+  duration_ms: 0.698209
+  type: 'test'
+  ...
+# Subtest: pet following uses only a purchased companion snapshot and tracks its real owner
+ok 693 - pet following uses only a purchased companion snapshot and tracks its real owner
+  ---
+  duration_ms: 0.338333
+  type: 'test'
+  ...
+1..693
+# tests 693
+# suites 0
+# pass 693
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 26907.05025

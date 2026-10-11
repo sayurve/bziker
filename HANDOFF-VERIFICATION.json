@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "project": "Бзикер",
+  "release": "v25",
+  "verified_utc": "2026-10-11T18:17:36.232453+00:00",
+  "passed": true,
+  "source_commit": "162a81ea663e021931f059dc5091385b0e29b31f",
+  "checks": {
+    "javascript": {
+      "command": "npm ci --ignore-scripts && npm test",
+      "passed": 710,
+      "failed": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "node_version": "26.5.0",
+      "canvas_version": "0.1.100",
+      "used_project_dependencies": true,
+      "log_sha256": "64a3ffc5ef57cabc6350c9e9e0274f32cb7a5e0cfd132b84b1bd2200b5d03f2a"
+    },
+    "python": {
+      "command": "python3 -m unittest discover -s tests -v",
+      "passed": 322,
+      "failed": 0,
+      "exit_code": 0,
+      "python_version": "3.12.14",
+      "log_sha256": "2ffeb708308c3611264a69f143c776f66f954ec8d624fae7aa9b97fc382ceb6b"
+    },
+    "empty_database_start": {
+      "result": "passed",
+      "static_routes": 119,
+      "temporary_database": true,
+      "external_requests": false,
+      "live_database_touched": false
+    },
+    "migration": {
+      "business_tables_checked": 33,
+      "business_rows_checked": 173,
+      "all_business_tables_unchanged": true,
+      "source_bytes_unchanged": true,
+      "source_integrity_check": "ok",
+      "clone_integrity_check": "ok",
+      "geometry_unchanged_during_check": true,
+      "target_map_sha256": "4159e4039c2d506c2baaeb304831797fbce2a32c5d1fa9879ceb151fe57ec17b",
+      "geometry_verification_status": "verified_final_snapshot"
+    },
+    "payload": {
+      "result": "passed",
+      "manifest_hash_mismatches": 0,
+      "private_files_in_manifest": 0,
+      "author_machine_paths_in_text": 0,
+      "unreviewed_sensitive_json_keys": 0,
+      "reviewed_keyword_match": "requirements.json confirmed.account.password is a password-policy description, not an account credential",
+      "file_count": 2337,
+      "total_bytes": 561331272,
+      "largest_file_bytes": 6713625,
+      "files_at_least_100_mib": [],
+      "native_reference_count": 18
+    }
+  },
+  "live_database_included": false,
+  "live_database_touched": false,
+  "publication_performed": false,
+  "deployment_performed": false,
+  "github_authentication_confirmed": null,
+  "github_cli_available": false,
+  "remote_configured": false,
+  "notes": [
+    "Runtime, assets, tests, documents and saved screenshot/PDF proof included.",
+    "18 original PNG references included for unchanged hash/pixel assertions.",
+    "Full optional design pack is required only for re-importing, not for gameplay or included regression tests.",
+    "Public mode currently requires Telegram and canonical HTTPS; demo mode binds loopback.",
+    "Physical phone testing and production deployment were not performed in this handoff check."
+  ],
+  "game_external_service_requests": false
+}
